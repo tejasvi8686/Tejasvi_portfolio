@@ -5,7 +5,7 @@
       "title": "Movix",
       "image": "./techs/filled/react.svg",
       "url": "./project/mx.webp",
-      "description": "HTML, SCSS, JAVASCRIPT, REACT.JS, REDUX",
+      "description": "HTML, SCSS, JAVASCRIPT, REACT.JS, REDUX.",
       "liveLink": "https://movix-tejasvi8686.vercel.app/",
       "codeLink": "https://github.com/tejasvi8686/Movix.git"
     },
@@ -15,7 +15,7 @@
       "title": "E-commerce",
       "image": "./techs/filled/react.svg",
       "url": "./project/ew.webp",
-      "description": "HTML, SCSS, JAVASCRIPT, REACT.JS, REDUX",
+      "description": "HTML, CSS, JAVASCRIPT, REACT.JS, REDUX.",
       "liveLink": "https://tejasviapneck.netlify.app/",
       "codeLink": "https://github.com/tejasvi8686/React_Ecommerce_Application"
     },
@@ -25,7 +25,7 @@
       "title": "Youtube Clone",
       "image": "./techs/filled/react.svg",
       "url": "./project/yt.webp",
-      "description": "HTML, SCSS, JAVASCRIPT, REACT.JS, REDUX",
+      "description": "HTML, TAILWIND, REACT.JS, RAPID API.",
       "liveLink": "https://clone-c42e9.web.app/",
       "codeLink": "https://github.com/tejasvi8686/youtube_clone"
     },
@@ -35,38 +35,28 @@
       "title": "Givan Academy",
       "image": "./techs/filled/react.svg",
       "url": "./project/gv.webp",
-      "description": "HTML, SCSS, JAVASCRIPT, REACT.JS, REDUX",
+      "description": "HTML, SCSS, JAVASCRIPT, REACT.JS.",
       "liveLink": "https://givanacademy.com/",
       "codeLink": ""
     },
     {
       "_id": 5,
       "projectno": "Project 5",
-      "title": "Movix",
+      "title": "Gym Website",
       "image": "./techs/filled/react.svg",
-      "url": "./project/mx.webp",
-      "description": "HTML, SCSS, JAVASCRIPT, REACT.JS, REDUX",
-      "liveLink": "https://movix-tejasvi8686.vercel.app/",
-      "codeLink": "https://github.com/tejasvi8686/Movix.git"
+      "url": "./project/gm.webp",
+      "description": "HTML, CSS, JAVASCRIPT, REACT.JS.",
+      "liveLink": "https://react-modern-website.web.app/",
+      "codeLink": "https://github.com/tejasvi8686/React_Morden_Website"
     },
     {
       "_id": 6,
       "projectno": "Project 6",
-      "title": "Movix",
+      "title": "Dice Game",
       "image": "./techs/filled/react.svg",
-      "url": "./project/mx.webp",
-      "description": "HTML, SCSS, JAVASCRIPT, REACT.JS, REDUX",
-      "liveLink": "https://movix-tejasvi8686.vercel.app/",
-      "codeLink": "https://github.com/tejasvi8686/Movix.git"
-    },
-    {
-      "_id": 7,
-      "projectno": "Project 7",
-      "title": "Movix",
-      "image": "./techs/filled/react.svg",
-      "url": "./project/mx.webp",
-      "description": "HTML, SCSS, JAVASCRIPT, REACT.JS, REDUX",
-      "liveLink": "https://movix-tejasvi8686.vercel.app/",
-      "codeLink": "https://github.com/tejasvi8686/Movix.git"
+      "url": "./project/dg.webp",
+      "description": "HTML, CSS, JAVASCRIPT, REACT.JS.",
+      "liveLink": "https://tejsavidicegames.netlify.app/",
+      "codeLink": "https://github.com/tejasvi8686/Dice_game"
     }
   ]

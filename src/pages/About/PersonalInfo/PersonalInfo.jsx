@@ -34,68 +34,70 @@ const PersonalInfo = () => {
     };
   }, []);
   const bio = ` /**
-  * I'm an accomplished MERN stack developer
+  * I'm an accomplished frontend developer
   * with a proven track record of creating
-  * exceptional web applications. With 
-  * expertise in React, Node.js, and Express.js,
+  * exceptional web applications. With
+  * expertise in React, HTML, CSS, and JavaScript,
   * 
   * I bring a unique blend of technical
   * skills and a keen eye for detail to
-  * every project. With 1 year of industry
- * experience, I have successfully delivered
- * cutting-edge solutions that exceed client
- * expectations. Continuously staying abreast
- * of the latest trends and technologies,
- * 
- * I thrive on solving challenges and
- * creating seamless user experiences.
- * Collaborate with me to bring your vision
- * to life and achieve extraordinary results."
- */
+  * every project. With 3 months of industry
+  * experience, I have successfully delivered
+  * cutting-edge solutions that exceed client
+  * expectations. Continuously staying abreast
+  * of the latest trends and technologies,
+  * 
+  * I thrive on solving challenges and
+  * creating seamless user experiences.
+  * Collaborate with me to bring your vision
+  * to life and achieve extraordinary results.
+  */
+ 
   `;
   const responsiveBio = (
     <>
       <p className="mb-3">
         <span className="text-white">//personal-info</span> / bio
       </p>
-      I&apos;m an accomplished MERN stack developer with a proven track record
-      of creating exceptional web applications. With expertise in React,
-      Node.js, and Express.js, <br /> I bring a unique blend of technical skills
-      and a keen eye for detail to every project. With 1 year of industry
-      experience. <br />
-      <br /> I have successfully delivered cutting-edge solutions that exceed
-      client expectations. Continuously staying abreast of the latest trends and
-      technologies. <br /> I thrive on solving challenges and creating seamless
-      user experiences. Collaborate with me to bring your vision to life and
-      achieve extraordinary results.
+      "I am an accomplished frontend developer with a proven track record of
+      creating exceptional web applications. My expertise lies in React, HTML,
+      CSS, and JavaScript, allowing me to bring a unique blend of technical
+      skills and attention to detail to every project. With one year of industry
+      experience, I have successfully delivered cutting-edge solutions that
+      surpass client expectations. Continuously staying updated on the latest
+      trends and technologies, I thrive on solving challenges and crafting
+      seamless user experiences. Collaborate with me to bring your vision to
+      life and achieve extraordinary results.
     </>
   );
   const interested = `
-  * As a web developer,
-  * I have a keen interest in emerging
-  * technologies and innovative web 
-  * solutions. 
-  * I'm passionate about creating seamless
-  * user experiences and leveraging the 
-  * power of web development to bring 
-  * ideas to life. Constantly learning
-  * and exploring new trends, I thrive
-  * on the dynamic nature of the web 
-  * development industry. Let's collaborate
-  * and build extraordinary digital
-  * experiences together.
-  */`;
+  /**
+ * As a frontend developer,
+ * I have a keen interest in emerging
+ * technologies and innovative web
+ * solutions.
+ * I'm passionate about creating seamless
+ * user experiences and leveraging the
+ * power of frontend development to bring
+ * ideas to life. Constantly learning
+ * and exploring new trends, I thrive
+ * on the dynamic nature of the frontend
+ * development industry. Let's collaborate
+ * and build extraordinary digital
+ * experiences together.
+ */
+`;
   const responsiveInterested = (
     <>
       <p className="mb-3">
         <span className="text-white">//personal-info</span> / interested
       </p>
-      As a web developer, I have a keen interest in emerging technologies and
-      innovative web solutions. <br /> I&apos;m passionate about creating
-      seamless user experiences and leveraging the power of web development to
-      bring ideas to life. Constantly learning and exploring new trends. <br />{" "}
-      I thrive on the dynamic nature of the web development industry. Let&apos;s
-      collaborate and build extraordinary digital experiences together.
+      As a frontend developer, I have a keen interest in emerging technologies
+      and innovative web solutions. I'm passionate about creating seamless user
+      experiences and leveraging the power of frontend development to bring
+      ideas to life. Constantly learning and exploring new trends, I thrive on
+      the dynamic nature of the frontend development industry. Let's collaborate
+      and build extraordinary digital experiences together
     </>
   );
   return (

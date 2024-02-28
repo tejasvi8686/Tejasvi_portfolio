@@ -60,7 +60,7 @@ const Contact = () => {
                 <RiCloseFill size={20} />
               </span>
             </div>
-            <div className="flex justify-center items-center h-full w-full">
+            <div className="flex justify-center items-center h-full w-full lg:mt-0 mt-20">
               {success ? (
                 <div className="text-center" data-aos="zoom-out">
                   <h2 className="text-3xl text-white flex justify-center items-center">

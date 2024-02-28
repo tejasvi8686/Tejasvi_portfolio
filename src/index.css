@@ -6,7 +6,12 @@
 @tailwind utilities;
 
 .trt {
-  height: 1300px;
+  height: 960px;
+}
+@media screen and (min-width: 650px) and  (max-width: 985px) {
+  .trt {
+    height: 220px;
+  }
 }
 
 @media screen and (max-width: 768px) {
