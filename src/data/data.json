@@ -1,0 +1,72 @@
+[
+    {
+      "_id": 1,
+      "projectno": "Project 1",
+      "title": "Movix",
+      "image": "./techs/filled/react.svg",
+      "url": "./project/mx.webp",
+      "description": "HTML, SCSS, JAVASCRIPT, REACT.JS, REDUX",
+      "liveLink": "https://movix-tejasvi8686.vercel.app/",
+      "codeLink": "https://github.com/tejasvi8686/Movix.git"
+    },
+    {
+      "_id": 2,
+      "projectno": "Project 2",
+      "title": "E-commerce",
+      "image": "./techs/filled/react.svg",
+      "url": "./project/ew.webp",
+      "description": "HTML, SCSS, JAVASCRIPT, REACT.JS, REDUX",
+      "liveLink": "https://tejasviapneck.netlify.app/",
+      "codeLink": "https://github.com/tejasvi8686/React_Ecommerce_Application"
+    },
+    {
+      "_id": 3,
+      "projectno": "Project 3",
+      "title": "Youtube Clone",
+      "image": "./techs/filled/react.svg",
+      "url": "./project/yt.webp",
+      "description": "HTML, SCSS, JAVASCRIPT, REACT.JS, REDUX",
+      "liveLink": "https://clone-c42e9.web.app/",
+      "codeLink": "https://github.com/tejasvi8686/youtube_clone"
+    },
+    {
+      "_id": 4,
+      "projectno": "Project 4",
+      "title": "Givan Academy",
+      "image": "./techs/filled/react.svg",
+      "url": "./project/gv.webp",
+      "description": "HTML, SCSS, JAVASCRIPT, REACT.JS, REDUX",
+      "liveLink": "https://givanacademy.com/",
+      "codeLink": ""
+    },
+    {
+      "_id": 5,
+      "projectno": "Project 5",
+      "title": "Movix",
+      "image": "./techs/filled/react.svg",
+      "url": "./project/mx.webp",
+      "description": "HTML, SCSS, JAVASCRIPT, REACT.JS, REDUX",
+      "liveLink": "https://movix-tejasvi8686.vercel.app/",
+      "codeLink": "https://github.com/tejasvi8686/Movix.git"
+    },
+    {
+      "_id": 6,
+      "projectno": "Project 6",
+      "title": "Movix",
+      "image": "./techs/filled/react.svg",
+      "url": "./project/mx.webp",
+      "description": "HTML, SCSS, JAVASCRIPT, REACT.JS, REDUX",
+      "liveLink": "https://movix-tejasvi8686.vercel.app/",
+      "codeLink": "https://github.com/tejasvi8686/Movix.git"
+    },
+    {
+      "_id": 7,
+      "projectno": "Project 7",
+      "title": "Movix",
+      "image": "./techs/filled/react.svg",
+      "url": "./project/mx.webp",
+      "description": "HTML, SCSS, JAVASCRIPT, REACT.JS, REDUX",
+      "liveLink": "https://movix-tejasvi8686.vercel.app/",
+      "codeLink": "https://github.com/tejasvi8686/Movix.git"
+    }
+  ]
