@@ -13,8 +13,8 @@ import NavExperience from "./Exprerience/NavExperience";
 import Database from "./Skills/Database";
 import NavSkills from "./Skills/NavSkills";
 import OtherSkills from "./Skills/OtherSkills";
-import BackEnd from "./Skills/backEnd";
-import FrontEnd from "./Skills/frontEnd";
+import BackEnd from "./Skills/BackEnd";
+import FrontEnd from "./Skills/FrontEnd";
 
 const ProfessionalInfo = () => {
   const [showInfo, setShowInfo] = useState(true);
