@@ -13,6 +13,10 @@ const provider = createBrowserRouter([
     element: <Main />,
     children: [
       {
+        path: "*",
+        element: <Home />, // You can also use <Navigate to="/" replace={true} />
+      },
+      {
         path: "/",
         element: <Home />,
       },
