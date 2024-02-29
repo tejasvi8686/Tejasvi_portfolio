@@ -5,14 +5,13 @@
     "name": "Movix",
     "image": "./project/mx.webp",
     "images": [
-      "  https://i.ibb.co/9sSYM7z/Screenshot-2024-02-29-165413.png",
-      " https://i.ibb.co/c3Y5H9S/Screenshot-2024-02-29-165406.png",
+      " https://i.ibb.co/9sSYM7z/Screenshot-2024-02-29-165413.png",
+      " https://i.ibb.co/zQ8p48K/Screenshot-2024-02-29-165426.png",
+      " https://i.ibb.co/85Zjsgz/Screenshot-2024-02-29-165431.png",
       " https://i.ibb.co/QFpgkMz/Screenshot-2024-02-29-165419.png",
-      "   https://i.ibb.co/zQ8p48K/Screenshot-2024-02-29-165426.png",
-      "   https://i.ibb.co/85Zjsgz/Screenshot-2024-02-29-165431.png",
-      "      https://i.ibb.co/tZyBfhf/Screenshot-2024-02-29-165437.png",
-      " https://i.ibb.co/N6Y1RZG/Screenshot-2024-02-29-165522.png",
-      "      https://i.ibb.co/BGLgd7r/Screenshot-2024-02-29-165541.png"
+      " https://i.ibb.co/c3Y5H9S/Screenshot-2024-02-29-165406.png",
+      " https://i.ibb.co/tZyBfhf/Screenshot-2024-02-29-165437.png",
+      " https://i.ibb.co/N6Y1RZG/Screenshot-2024-02-29-165522.png"
     ],
     "category": "./techs/filled/react.svg",
     "technologies": [
