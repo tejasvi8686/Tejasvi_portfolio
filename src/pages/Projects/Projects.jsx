@@ -12,7 +12,7 @@ import {
 } from "react-icons/ri";
 import { SiTailwindcss } from "react-icons/si";
 import Sticky from "react-stickynode";
-import ProjectCard from "../../components/ProjectCard/ProjectCard";
+import ProjectCard from "./ProjectCard";
 import Project from "./Project";
 
 const Projects = () => {
