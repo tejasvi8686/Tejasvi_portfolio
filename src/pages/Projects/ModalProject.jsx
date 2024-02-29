@@ -4,7 +4,7 @@ import { RxDotFilled } from "react-icons/rx";
 import ReactImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import { Link } from "react-router-dom";
-import React from "../../assets/react.svg"
+import React from "../../../public/techs/filled/react.svg"
 import "../../layouts/Styles.css";
 const ModalProject = ({ isOpen, closeModal, content }) => {
   const {
