@@ -1,0 +1,190 @@
+[
+  {
+    "_id": 1,
+    "projectNo": "Project 1",
+    "name": "Movix",
+    "image": "./project/mx.webp",
+    "images": [
+      "  https://i.ibb.co/9sSYM7z/Screenshot-2024-02-29-165413.png",
+      " https://i.ibb.co/c3Y5H9S/Screenshot-2024-02-29-165406.png",
+      " https://i.ibb.co/QFpgkMz/Screenshot-2024-02-29-165419.png",
+      "   https://i.ibb.co/zQ8p48K/Screenshot-2024-02-29-165426.png",
+      "   https://i.ibb.co/85Zjsgz/Screenshot-2024-02-29-165431.png",
+      "      https://i.ibb.co/tZyBfhf/Screenshot-2024-02-29-165437.png",
+      " https://i.ibb.co/N6Y1RZG/Screenshot-2024-02-29-165522.png",
+      "      https://i.ibb.co/BGLgd7r/Screenshot-2024-02-29-165541.png"
+    ],
+    "category": "./techs/filled/react.svg",
+    "technologies": [
+      "html",
+      "css",
+      "javascript",
+      "react.js",
+      "redux",
+      "TMDB API"
+    ],
+    "features": [
+      "navigation",
+      "home-page",
+      "genre",
+      "infinite-scroll",
+      "dashboard"
+    ],
+    "liveLink": "https://movix-tejasvi8686.vercel.app/",
+    "codeLink": "https://github.com/tejasvi8686/Movix.git",
+    "description": " With a blend of React, Redux, and SCSS, I've crafted an immersive platform to explore your favorite Movies and TV Shows. From the vibrant homepage to the detailed Movie/TV Show pages, every corner of Movix exudes the magic of cinema. The homepage kicks off with a sleek banner and a search bar, followed by trending sections. Toggle buttons make sorting a breeze – choose between day and week for Trending, and between Movies and TV Shows for What's Popular and Top Rated. All this comes to a delightful close with an eye-catching footer. "
+  },
+  {
+    "_id": 2,
+    "projectNo": "Project 2",
+    "name": "E-commerce",
+    "image": "./project/ew.webp",
+    "images": [
+      " https://i.ibb.co/wwZJHRW/Screenshot-2024-02-29-121035.png",
+      " https://i.ibb.co/GHhvVDQ/Screenshot-2024-02-29-121117.png",
+      " https://i.ibb.co/znzWhjy/Screenshot-2024-02-29-121150.png",
+      "https://i.ibb.co/9N7LQhh/Screenshot-2024-02-29-121200.png",
+      " https://i.ibb.co/kg4cNdg/Screenshot-2024-02-29-121209.png"
+    ],
+    "category": "./techs/filled/react.svg",
+    "technologies": [
+      "html",
+      "css",
+      "javascript",
+      "react.js",
+      "redux"
+    ],
+    "features": [
+      "navigation",
+      "home-page",
+      "shop-by-category",
+      "latest-gallery",
+      "blog"
+    ],
+    "liveLink": "https://tejasviapneck.netlify.app/",
+    "codeLink": "https://github.com/tejasvi8686/React_Ecommerce_Application",
+    "description": "Apneck is a responsive full e-commerce website built using React. This repository contains the code for the website's frontend. The application utilizes the React Router library to handle client-side routing. It defines various routes for different pages, including the home page, about page, shop page, contact page, login page, signup page, forgot password page, cart page, checkout page, blog page, and product details page. "
+  },
+  {
+    "_id": 3,
+    "projectNo": "Project 3",
+    "name": "Youtube Clone",
+    "image": "./project/yt.webp",
+    "images": [
+      "https://i.ibb.co/vdKgWxF/Screenshot-2024-02-29-155207.png",
+      "    https://i.ibb.co/St48f8B/Screenshot-2024-02-29-155255.png",
+      "  https://i.ibb.co/kh09fBb/Screenshot-2024-02-29-155326.png"
+    ],
+    "category": "./techs/filled/react.svg",
+    "technologies": [
+      "html",
+      "css",
+      "tailwind",
+      "javascript",
+      "react.js",
+      "TMDB API"
+    ],
+    "features": [
+      "navigation",
+      "home-page",
+      "genre",
+      "infinite-scroll",
+      "dashboard"
+    ],
+    "liveLink": "https://clone-c42e9.web.app/",
+    "codeLink": "https://github.com/tejasvi8686/youtube_clone",
+    "description": " the YouTube Clone! This project is the result of dedicated coding and creative design, leveraging the power of React and Tailwind CSS to bring you an exciting video streaming experience. Real-Time Content: The YouTube Clone seamlessly integrates the YouTube API from RapidAPI, ensuring that the video content remains dynamic and up-to-date, just like the original platform. "
+  },
+  {
+    "_id": 4,
+    "projectNo": "Project 4",
+    "name": "Givan Academy",
+    "image": "./project/gv.webp",
+    "images": [
+      "  https://i.ibb.co/WsKkbMw/Screenshot-2024-02-29-155931.png",
+      " https://i.ibb.co/LJrndtk/Screenshot-2024-02-29-155942.png",
+      "  https://i.ibb.co/BrqysW3/Screenshot-2024-02-29-155959.png",
+      "https://i.ibb.co/j89pfYN/Screenshot-2024-02-29-160022.png",
+      " https://i.ibb.co/0jCS87k/Screenshot-2024-02-29-160033.png",
+      " https://i.ibb.co/k2zpLbX/Screenshot-2024-02-29-160043.png",
+      " https://i.ibb.co/vvr4ccZ/Screenshot-2024-02-29-160057.png"
+    ],
+    "category": "./techs/filled/react.svg",
+    "technologies": [
+      "html",
+      "scss",
+      "javascript",
+      "react.js",
+      "redux"
+    ],
+    "features": [
+      "navigation",
+      "home-page",
+      "class filter",
+      "notes download",
+      "scan code payment"
+    ],
+    "liveLink": "https://givanacademy.com/",
+    "codeLink": "/",
+    "description": " Discover a coaching platform where students have the opportunity to enroll in classes, access class-specific notes for download, engage with lectures, and where teachers can also apply to be part of the coaching team, facilitating a comprehensive learning experience. "
+  },
+  {
+    "_id": 5,
+    "projectNo": "Project 5",
+    "name": "Gym Website",
+    "image": "./project/gm.webp",
+    "images": [
+      "https://i.ibb.co/Dzrn6b1/Screenshot-2024-02-29-161016.png",
+      "  https://i.ibb.co/XFBGXL9/Screenshot-2024-02-29-161033.png",
+      " https://i.ibb.co/gjc2G2f/Screenshot-2024-02-29-161044.png",
+      " https://i.ibb.co/S3Zj4wv/Screenshot-2024-02-29-161103.png",
+      "https://i.ibb.co/jZMMDgH/Screenshot-2024-02-29-161116.png",
+      " https://i.ibb.co/JCd0R8M/Screenshot-2024-02-29-161124.png"
+    ],
+    "category": "./techs/filled/react.svg",
+    "technologies": [
+      "html",
+      "css",
+      "javascript",
+      "react.js",
+      "firebase"
+    ],
+    "features": [
+      " Fast rendering with virtual DOM",
+      "Reusable components",
+      "State management with hooks",
+      "Routing with React Router",
+      "Easy deployment with Firebas"
+    ],
+    "liveLink": "https://react-modern-website.web.app/",
+    "codeLink": "https://github.com/tejasvi8686/React_Morden_Website",
+    "description": "It has 6 pages: Home, About, Gallery, Plans, Trainers and Contact. This project helped me improve my React skills 💻 and learn how to use Firebase for hosting."
+  },
+  {
+    "_id": 6,
+    "projectNo": "Project 6",
+    "name": "Dice Game",
+    "image": "./project/dg.webp",
+    "images": [
+      " https://i.ibb.co/jWhMj9Y/Screenshot-2024-02-29-170545.png",
+      " https://i.ibb.co/dgMpGQ3/Screenshot-2024-02-29-170512.png",
+      "  https://i.ibb.co/1bmfJhv/Screenshot-2024-02-29-170524.png"
+
+    ],
+    "category": "./techs/filled/react.svg",
+    "technologies": [
+      "html",
+      "css",
+      "javascript",
+      "react.js"
+    ],
+    "features": [
+      "homepage",
+      "navigation",
+      "dashboard"
+    ],
+    "liveLink": "https://tejsavidicegames.netlify.app/",
+    "codeLink": "https://github.com/tejasvi8686/Dice_game",
+    "description": "In this game, you can predict the number that will appear on the dice, then click on the dice to roll it randomly. You will get a score based on whether your prediction was right or wrong. 🙌 "
+  }
+]
