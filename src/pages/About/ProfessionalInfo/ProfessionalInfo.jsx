@@ -8,8 +8,6 @@ import {
 import Sticky from "react-stickynode";
 import CommentSyntaxHighlighter from "../../../components/AboutCodeSnippet/CommentSyntaxHighlighter";
 import NavContact from "../../../components/AboutInfoNav/NavContact";
-
-import NavExperience from "./Exprerience/NavExperience";
 import Database from "./Skills/Database";
 import NavSkills from "./Skills/NavSkills";
 import OtherSkills from "./Skills/OtherSkills";

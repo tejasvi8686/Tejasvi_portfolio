@@ -8,7 +8,7 @@ import {
 import Sticky from "react-stickynode";
 import CommentSyntaxHighlighter from "../../../components/AboutCodeSnippet/CommentSyntaxHighlighter";
 import NavBio from "../../../components/AboutInfoNav/NavBio";
-import NavContact from "../../../components/AboutInfoNav/NavContact";
+import NavContact from "../../../components/AboutInfoNav/NavBio";
 import NavEducation from "../../../components/AboutInfoNav/NavEducation";
 import NavInterested from "../../../components/AboutInfoNav/NavInterested";
 import Education from "./Education";

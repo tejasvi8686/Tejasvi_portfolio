@@ -1,5 +1,5 @@
 import React from 'react'
-import data from "../../../src/data/data.json"
+import data from "../../../public/data.json"
 import { Link } from "react-router-dom";
 import { MdViewInAr } from "react-icons/md";
 import { RiCodeSSlashFill } from "react-icons/ri";
