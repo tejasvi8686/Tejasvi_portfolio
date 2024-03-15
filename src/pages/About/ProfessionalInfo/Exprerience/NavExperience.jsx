@@ -6,6 +6,7 @@ import {
   RiFileHistoryFill,
   RiFolder3Fill,
 } from "react-icons/ri";
+import Experience from "./Experience";
 
 const NavExperience = ({ selectedStatus }) => {
   // const [eduInstitute, setEduInstitute] = useState("");
@@ -32,15 +33,16 @@ const NavExperience = ({ selectedStatus }) => {
           >
             <RiFileHistoryFill size={24} /> work-history
           </p>
-          <p
+          {/* <p
             onClick={() => selectedStatus("university")}
             className="flex items-center gap-1"
           >
             <FaIndustry size={24} /> industry
-          </p>
+          </p> */}
         </div>
       ) : (
         ""
+      
       )}
     </>
   );
