@@ -23,16 +23,6 @@
     {
       "_id": 3,
       "projectno": "Project 3",
-      "title": "Youtube Clone",
-      "image": "./techs/filled/react.svg",
-      "url": "./project/yt.webp",
-      "description": "HTML, TAILWIND, REACT.JS, RAPID API.",
-      "liveLink": "https://clone-c42e9.web.app/",
-      "codeLink": "https://github.com/tejasvi8686/youtube_clone"
-    },
-    {
-      "_id": 4,
-      "projectno": "Project 4",
       "title": "Givan Academy",
       "image": "./techs/filled/react.svg",
       "url": "./project/gv.webp",
@@ -41,8 +31,29 @@
       "codeLink": ""
     },
     {
+      "_id": 4,
+      "projectno": "Project 4",
+      "title": "Next Commerce",
+      "image": "./techs/filled/nextjs.svg",
+      "url": "https://i.ibb.co/DfR7nFq/Screenshot-2024-04-25-182037.png",
+      "description": "HTML, TYPESCRIPT, NEXT.JS, SANIY, TAILWINDCSS",
+      "liveLink": "https://commerce-next-yt.vercel.app/",
+      "codeLink": "https://github.com/tejasvi8686/E-commerce-Next.js/tree/main"
+    },
+    {
       "_id": 5,
       "projectno": "Project 5",
+      "title": "Youtube Clone",
+      "image": "./techs/filled/react.svg",
+      "url": "./project/yt.webp",
+      "description": "HTML, TAILWIND, REACT.JS, RAPID API.",
+      "liveLink": "https://clone-c42e9.web.app/",
+      "codeLink": "https://github.com/tejasvi8686/youtube_clone"
+    },
+   
+    {
+      "_id": 6,
+      "projectno": "Project 6",
       "title": "Gym Website",
       "image": "./techs/filled/react.svg",
       "url": "./project/gm.webp",
@@ -51,7 +62,7 @@
       "codeLink": "https://github.com/tejasvi8686/React_Morden_Website"
     },
     {
-      "_id": 6,
+      "_id": 7,
       "projectno": "Project 7",
       "title": "Dice Game",
       "image": "./techs/filled/react.svg",
