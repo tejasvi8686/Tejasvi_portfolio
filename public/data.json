@@ -9,19 +9,10 @@
       "liveLink": "https://movix-tejasvi8686.vercel.app/",
       "codeLink": "https://github.com/tejasvi8686/Movix.git"
     },
+
     {
       "_id": 2,
       "projectno": "Project 2",
-      "title": "Portfolio",
-      "image": "./techs/filled/react.svg",
-      "url": "https://i.ibb.co/hDwNcSh/Screenshot-2024-04-25-133909.png",
-      "description": "HTML, TAILWIND CSS, JAVASCRIPT, REACT.JS.",
-      "liveLink": "https://tejasviraj.vercel.app/",
-      "codeLink": "/"
-    },
-    {
-      "_id": 3,
-      "projectno": "Project 3",
       "title": "E-commerce",
       "image": "./techs/filled/react.svg",
       "url": "./project/ew.webp",
@@ -30,8 +21,8 @@
       "codeLink": "https://github.com/tejasvi8686/React_Ecommerce_Application"
     },
     {
-      "_id": 4,
-      "projectno": "Project 4",
+      "_id": 3,
+      "projectno": "Project 3",
       "title": "Youtube Clone",
       "image": "./techs/filled/react.svg",
       "url": "./project/yt.webp",
@@ -40,8 +31,8 @@
       "codeLink": "https://github.com/tejasvi8686/youtube_clone"
     },
     {
-      "_id": 5,
-      "projectno": "Project 5",
+      "_id": 4,
+      "projectno": "Project 4",
       "title": "Givan Academy",
       "image": "./techs/filled/react.svg",
       "url": "./project/gv.webp",
@@ -50,15 +41,24 @@
       "codeLink": ""
     },
     {
-      "_id": 6,
-      "projectno": "Project 6",
+      "_id": 5,
+      "projectno": "Project 5",
       "title": "Gym Website",
       "image": "./techs/filled/react.svg",
       "url": "./project/gm.webp",
       "description": "HTML, CSS, JAVASCRIPT, REACT.JS.",
       "liveLink": "https://react-modern-website.web.app/",
       "codeLink": "https://github.com/tejasvi8686/React_Morden_Website"
+    },
+    {
+      "_id": 6,
+      "projectno": "Project 7",
+      "title": "Dice Game",
+      "image": "./techs/filled/react.svg",
+      "url": "./project/dg.webp",
+      "description": "HTML, CSS, JAVASCRIPT, REACT.JS.",
+      "liveLink": "https://tejsavidicegames.netlify.app/",
+      "codeLink": "https://github.com/tejasvi8686/Dice_game"
     }
-    
     
   ]

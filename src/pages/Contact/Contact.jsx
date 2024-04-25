@@ -88,7 +88,7 @@ const Contact = () => {
                     <br />
                     <input
                       type="text"
-                      placeholder="enter name"
+                      placeholder="Tejasvi Raj"
                       name="user_name"
                       onChange={(e) => setName(e.target.value)}
                     />
@@ -99,7 +99,7 @@ const Contact = () => {
                     <input
                       type="email"
                       name="user_email"
-                      placeholder="enter email"
+                      placeholder="tejasviraj8686@gmail.com"
                       required
                       onChange={(e) => setEmail(e.target.value)}
                     />

@@ -34,5 +34,43 @@
         "description": "HTML, CSS, JAVASCRIPT, REACT.JS.",
         "liveLink": "https://tejsavidicegames.netlify.app/",
         "codeLink": "https://github.com/tejasvi8686/Dice_game"
+      },
+
+      {
+        "_id": 2,
+        "projectno": "Project 2",
+        "title": "Portfolio",
+        "image": "./techs/filled/react.svg",
+        "url": "https://i.ibb.co/hDwNcSh/Screenshot-2024-04-25-133909.png",
+        "description": "HTML, TAILWIND CSS, JAVASCRIPT, REACT.JS.",
+        "liveLink": "https://tejasviraj.vercel.app/",
+        "codeLink": "/"
+      },
+      {
+        "_id": 2,
+        "projectNo": "Project 2",
+        "name": "Portfolio",
+        "image": "https://i.ibb.co/hDwNcSh/Screenshot-2024-04-25-133909.png",
+        "images": [
+          "https://i.ibb.co/hDwNcSh/Screenshot-2024-04-25-133909.png",
+          "https://i.ibb.co/c3G5S1V/Screenshot-2024-04-25-134051.png",
+          "https://i.ibb.co/wNPLNjB/Screenshot-2024-04-25-134104.png",
+          "https://i.ibb.co/4SRXC05/Screenshot-2024-04-25-134112.png"
+        ],
+        "category": "./techs/filled/react.svg",
+        "technologies": [
+          "html",
+          "css",
+          "javascript",
+          "react.js"
+        ],
+        "features": [
+          "navigation",
+          "home-page",
+          "react-helmet"
+        ],
+        "liveLink": "https://tejasviraj.vercel.app/",
+        "codeLink": "/",
+        "description": " Immerse yourself in my world with an engaging homepage featuring a playful snake game, turning my portfolio into an experience, not just a collection of work! Discover my skills, bio, interests, and educational background on the About Me page, and get acquainted with the person behind the projects. Browse through my projects on the Project Page, enhanced with stunning images, and delve deeper into the details, with each project linked for closer examination where innovation meets aesthetics. Need to get in touch? Visit the Contact Me page for hassle-free communication. Meticulously crafted for a seamless user experience, my portfolio offers impressive design, from captivating visuals to intuitive navigation, every element thoughtfully designed to make an impact. "
       }
 ]
