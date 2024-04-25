@@ -88,7 +88,7 @@ const Contact = () => {
                     <br />
                     <input
                       type="text"
-                      placeholder="tejasvi_raj"
+                      placeholder="enter name"
                       name="user_name"
                       onChange={(e) => setName(e.target.value)}
                     />
@@ -99,7 +99,7 @@ const Contact = () => {
                     <input
                       type="email"
                       name="user_email"
-                      placeholder="tejasviraj8686@gmail.com"
+                      placeholder="enter email"
                       required
                       onChange={(e) => setEmail(e.target.value)}
                     />
@@ -109,7 +109,7 @@ const Contact = () => {
                     <br />
                     <textarea
                       name="message"
-                      placeholder="Enter your message"
+                      placeholder="Tejasvi, we are offering you a job"
                       required
                       onChange={(e) => setMessage(e.target.value)}
                       className="md:w-[23rem] w-[20rem] h-28 bg-p3 rounded-lg px-3 py-4 outline-none border border-p4 mt-2"
