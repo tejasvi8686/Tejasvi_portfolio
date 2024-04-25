@@ -1,0 +1,38 @@
+[
+    {
+        "_id": 7,
+        "projectNo": "Project 7",
+        "name": "Dice Game",
+        "image": "./project/dg.webp",
+        "images": [
+          " https://i.ibb.co/jWhMj9Y/Screenshot-2024-02-29-170545.png",
+          " https://i.ibb.co/dgMpGQ3/Screenshot-2024-02-29-170512.png",
+          "  https://i.ibb.co/1bmfJhv/Screenshot-2024-02-29-170524.png"
+        ],
+        "category": "./techs/filled/react.svg",
+        "technologies": [
+          "html",
+          "css",
+          "javascript",
+          "react.js"
+        ],
+        "features": [
+          "homepage",
+          "navigation",
+          "dashboard"
+        ],
+        "liveLink": "https://tejsavidicegames.netlify.app/",
+        "codeLink": "https://github.com/tejasvi8686/Dice_game",
+        "description": "In this game, you can predict the number that will appear on the dice, then click on the dice to roll it randomly. You will get a score based on whether your prediction was right or wrong. 🙌 "
+      },
+      {
+        "_id": 7,
+        "projectno": "Project 7",
+        "title": "Dice Game",
+        "image": "./techs/filled/react.svg",
+        "url": "./project/dg.webp",
+        "description": "HTML, CSS, JAVASCRIPT, REACT.JS.",
+        "liveLink": "https://tejsavidicegames.netlify.app/",
+        "codeLink": "https://github.com/tejasvi8686/Dice_game"
+      }
+]
