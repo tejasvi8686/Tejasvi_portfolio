@@ -94,7 +94,7 @@ const Home = () => {
                       className="underline"
                       download
                       target="_blank"
-                      to="https://drive.google.com/file/d/1Vr_UdQ8ZUTn5WLmqfC4snoLJOgkjs8dO/view?usp=sharing"
+                      to="https://drive.google.com/file/d/1ebSWTm2eZqDkGKcKpxTkcey1bSAS1Rl4/view?usp=sharing"
                     >
                       https://docs.google.com/resume/
                     </Link>
