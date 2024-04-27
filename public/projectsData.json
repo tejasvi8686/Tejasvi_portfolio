@@ -217,6 +217,63 @@
     "liveLink": "https://tejsavidicegames.netlify.app/",
     "codeLink": "https://github.com/tejasvi8686/Dice_game",
     "description": "In this game, you can predict the number that will appear on the dice, then click on the dice to roll it randomly. You will get a score based on whether your prediction was right or wrong. 🙌 "
+  },
+  {
+    "_id": 8,
+    "projectNo": "Project 8",
+    "name": "Brainwave",
+    "image": "https://i.postimg.cc/4dT8Q9cm/Screenshot-2024-04-27-222600.png",
+    "images": [
+      "https://i.postimg.cc/4dT8Q9cm/Screenshot-2024-04-27-222600.png",
+      "https://i.postimg.cc/wB55Hbtj/Screenshot-2024-04-27-222610.png",
+      "https://i.postimg.cc/D0vBt3Bh/Screenshot-2024-04-27-222624.png",
+      "https://i.postimg.cc/XYCc1v4F/Screenshot-2024-04-27-222636.png",
+      "https://i.postimg.cc/Xv6KR0YP/Screenshot-2024-04-27-222643.png",
+      "https://i.postimg.cc/6qpfMLp5/Screenshot-2024-04-27-222652.png"
+    ],
+    "category": "./techs/filled/react.svg",
+    "technologies": [
+      "html",
+      "tailwind css",
+      "javascript",
+      "react.js"
+    ],
+    "features": [
+      "",
+      "",
+      ""
+    ],
+    "liveLink": "https://ts-brainwave.vercel.app/",
+    "codeLink": "https://github.com/tejasvi8686/BrainWave",
+    "description": "Create modern websites with sleek parallax effects and bento box layouts. It covers everything from stylish UI design to mobile-first principles, while also strengthening your React.js and Tailwind CSS skills. 🙌 "
+  },
+  {
+    "_id": 9,
+    "projectNo": "Project 9",
+    "name": "TravelApp(UI/UX)",
+    "image": "https://i.postimg.cc/T1kjWLGL/Screenshot-2024-04-27-223047.png",
+    "images": [
+      "https://i.postimg.cc/T1kjWLGL/Screenshot-2024-04-27-223047.png",
+      "https://i.postimg.cc/3R8DC8tg/Screenshot-2024-04-27-223103.png",
+      "https://i.postimg.cc/3wHGNCpf/Screenshot-2024-04-27-223110.png",
+      "https://i.postimg.cc/kMjWsS3D/Screenshot-2024-04-27-223117.png",
+      "https://i.postimg.cc/vZn9GS16/Screenshot-2024-04-27-223124.png",
+      "https://i.postimg.cc/MGyymrq8/Screenshot-2024-04-27-223131.png"
+    ],
+    "category": "./techs/filled/nextjs.svg",
+    "technologies": [
+      "html",
+      "tailwind css",
+      "typescript",
+      "next.js"
+    ],
+    "features": [
+      "",
+      "",
+      ""
+    ],
+    "liveLink": "https://travelapp-ui-ux.vercel.app/",
+    "codeLink": "https://github.com/tejasvi8686/TravelApp_UI-UX",
+    "description": "Build and deploy a fully responsive modern UI/UX website with a simple design using React.js, Next.js 13, and Tailwind CSS.🙌 "
   }
- 
 ]
