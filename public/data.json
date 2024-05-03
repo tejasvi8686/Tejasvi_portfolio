@@ -88,5 +88,25 @@
     "description": "HTML, TAILWIND CSS, TYPESCRIPT, NEXT.JS.",
     "liveLink": "https://travelapp-ui-ux.vercel.app/",
     "codeLink": "https://github.com/tejasvi8686/TravelApp_UI-UX"
+  },
+  {
+    "_id": 10,
+    "projectno": "Project 10",
+    "title": "Gemini Clone",
+    "image": "./techs/filled/react.svg",
+    "url": "https://i.ibb.co/ZzmJkVK/Screenshot-2024-05-04-023633.png",
+    "description": "HTML,  CSS, JAVASCRIPT, REACT.JS.",
+    "liveLink": "https://ts-gemini-clone.vercel.app/",
+    "codeLink": "https://github.com/tejasvi8686/Gemini-Clone"
+  },
+  {
+    "_id": 11,
+    "projectno": "Project 11",
+    "title": "Iphone 15",
+    "image": "./techs/filled/react.svg",
+    "url": "https://i.ibb.co/fp5c1F6/Screenshot-2024-05-04-025856.png",
+    "description": "HTML, TAILWIND CSS, JAVASCRIPT, REACT.JS. , THREE.JS, GSAP",
+    "liveLink": "https://ts-apple-iphone.vercel.app/",
+    "codeLink": "https://github.com/tejasvi8686/apple-Iphone-"
   }
 ]

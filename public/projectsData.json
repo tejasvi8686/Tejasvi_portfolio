@@ -238,7 +238,6 @@
       "javascript",
       "react.js"
     ],
-   
     "liveLink": "https://ts-brainwave.vercel.app/",
     "codeLink": "https://github.com/tejasvi8686/BrainWave",
     "description": "Create modern website with sleek parallax effects and bento box layouts. It covers everything from stylish UI design to mobile-first principles, while also strengthening your React.js and Tailwind CSS skills. 🙌 "
@@ -263,9 +262,64 @@
       "typescript",
       "next.js"
     ],
-   
     "liveLink": "https://travelapp-ui-ux.vercel.app/",
     "codeLink": "https://github.com/tejasvi8686/TravelApp_UI-UX",
-    "description": "Build and deploy a fully responsive modern UI/UX website with a simple design using React.js, Next.js 13, and Tailwind CSS.🙌 "
+    "description": "Built and deployed a fully responsive modern UI/UX website with a simple design using React.js, Next.js 13, and Tailwind CSS."
+  },
+  {
+    "_id": 10,
+    "projectNo": "Project 10",
+    "name": "Gemini Clone",
+    "image": "https://i.ibb.co/ZzmJkVK/Screenshot-2024-05-04-023633.png",
+    "images": [
+      "https://i.ibb.co/ZzmJkVK/Screenshot-2024-05-04-023633.png",
+      "https://i.ibb.co/Wz7sM9z/Screenshot-2024-05-04-023653.png",
+      "https://i.ibb.co/gVyb2Rq/Screenshot-2024-05-04-023723.png"
+    ],
+    "category": "./techs/filled/react.svg",
+    "technologies": [
+      "html",
+      "css",
+      "javascript",
+      "react.js",
+      "GEMNI API"
+    ],
+    "liveLink": "https://ts-gemini-clone.vercel.app/",
+    "codeLink": "https://github.com/tejasvi8686/Gemini-Clone",
+    "description": "Built and deployed a fully responsive modern Gemnini Clone using React js GeminiAPI"
+  },
+  {
+    "_id": 11,
+    "projectNo": "Project 11",
+    "name": "Iphone 15 website",
+    "image": "https://i.ibb.co/fp5c1F6/Screenshot-2024-05-04-025856.png",
+    "images": [
+      "https://i.ibb.co/fp5c1F6/Screenshot-2024-05-04-025856.png",
+      "https://i.ibb.co/yd31MYs/Screenshot-2024-05-04-030019.png",
+      "https://i.ibb.co/L9B5MKN/Screenshot-2024-05-04-030029.png",
+      "https://i.ibb.co/nkccqnS/Screenshot-2024-05-04-030051.png"
+   
+
+   
+    ],
+    "category": "./techs/filled/react.svg",
+    "technologies": [
+      "html",
+      "tailwind css",
+      "javascript",
+      "react.js",
+      "three.js",
+      "gsap",
+      "react three fibre"
+    ],
+    "features": [
+      "Smooth GSAP Animations",
+      "Dynamic 3D Models",
+      "Custom Video Carousel",
+      "Fully Responsive"
+    ],
+    "liveLink": "https://ts-gemini-clone.vercel.app/",
+    "codeLink": "https://github.com/tejasvi8686/Gemini-Clone",
+    "description": "The Apple iPhone 15 Pro website! I've brought it to life with a blend of GSAP animations and Three.js 3D effects. "
   }
 ]
