@@ -2,6 +2,87 @@
   {
     "_id": 1,
     "projectNo": "Project 1",
+    "name": "Yoom ",
+    "image": "https://i.postimg.cc/c1QdKRnh/Screenshot-2024-05-08-192256.png",
+    "images": [
+      "https://iili.io/JrrAwOb.md.png",
+      "https://iili.io/JrrAYRs.md.png",
+      "https://iili.io/JrrAcbf.md.png",
+      "https://iili.io/JrrA1Wl.md.png",
+      "https://iili.io/JrrAaOG.md.png",
+      "https://iili.io/JrrAMfS.md.png",
+      "https://iili.io/JrrAj5u.md.png",
+      "https://iili.io/JrrANbj.md.png",
+      "https://iili.io/JrrAkWQ.md.png"
+    ],
+    "category": "./techs/filled/nextjs.svg",
+    "technologies": [
+      "type script",
+      "tailwind css",
+      "shadcn",
+      "next.js",
+      "stream API",
+      "CLERK"
+    ],
+    "features": [
+      "Authentication: Securely log in using Clerk, managing access and permissions.",
+      "New Meeting: Quickly start a meeting, setting up camera and mic.",
+      "Meeting Controls: Full participant control over recording, reactions, screen sharing, and more.",
+      "Exit Meeting: Leave or end meetings easily.",
+      "Schedule Future Meetings: Set up future meetings with date and time.",
+      "Past Meetings List: Access details of previous meetings.",
+      "View Recorded Meetings: Review past meeting recordings.",
+      "Personal Room: Each user has a unique meeting link.",
+      "Join Meetings via Link: Easily join others' meetings with a link.",
+      "Secure Real-time Functionality: Interactions are secure and real-time.",
+      "Responsive Design: Ensures great user experience across devices.",
+      "Code Architecture & Reusability: Efficient, reusable code for scalability."
+    ],
+    "liveLink": "https://yoom-app-woadzz.vercel.app/",
+    "codeLink": "https://github.com/tejasvi8686/Video-Conferencing-App",
+    "description": "This platform offers secure authentication via Clerk for logging in securely. Users can quickly start meetings, controlling aspects like recording and screen sharing. Exiting meetings is easy, with options for participants and creators. Future meetings can be scheduled and past ones reviewed with recordings. The platform ensures secure, real-time interactions and has a responsive design, with efficient, reusable code. "
+  },
+  {
+    "_id": 2,
+    "projectNo": "Project 2",
+    "name": "From builder",
+    "image": "https://i.postimg.cc/NF1NDfc9/Screenshot-2024-05-08-192458.png",
+    "images": [
+      "https://iili.io/Jrrfzbt.md.png",
+      "https://iili.io/Jrrf3Wg.md.png",
+      "https://iili.io/JrrfFsa.md.png",
+      "https://iili.io/JrrffqJ.md.png",
+      "https://iili.io/Jrrfo5N.md.png",
+      "https://iili.io/Jrrfq0v.md.png",
+      "https://iili.io/JrrfnJp.md.png",
+      "https://iili.io/JrrfxeI.md.png"
+    ],
+    "category": "./techs/filled/nextjs.svg",
+    "technologies": [
+      "typescript",
+      "tailwind css",
+      "Next.js",
+      "Prisma",
+      "PostgreSQL",
+      "Dnd-kit library"
+    ],
+    "features": [
+      "Create forms with a stunning drag and drop designer",
+      "Layout fields: Title, SubTitle, Spacer, Separator, Paragraph",
+      "Form fields: Text, Number, Select, Date, Checkbox, Textarea",
+      "Is easy to add and customize new fields",
+      "Form preview dialog",
+      "Share form url",
+      "Form submission/validation",
+      "Form stats: visits and submissions"
+    ],
+    "liveLink": "https://ts-form-builder.vercel.app/",
+    "codeLink": "https://github.com/tejasvi8686/Form_builder_app",
+    "description": "create forms with a stunning drag-and-drop designer, allowing you to easily design the layout. This includes fields such as Title, SubTitle, Spacer, Separator, and Paragraph for structuring your form. Additionally, you can add various form fields like Text, Number, Select, Date, Checkbox, and Textarea. Customizing and adding new fields is straightforward, making it easy to tailor your form to your needs. A form preview dialog lets you see how your form will appear before finalizing it. Once created, you can share the form URL with others. The platform also supports form submission and validation, ensuring data accuracy. Finally, you can track form stats, including visits and submissions, providing insights into your form's performance."
+  },
+  {
+    "_id": 3,
+    "projectNo": "Project 3",
     "name": "Movix",
     "image": "./project/mx.webp",
     "images": [
@@ -34,16 +115,71 @@
     "description": " With a blend of React, Redux, and SCSS, I've crafted an immersive platform to explore your favorite Movies and TV Shows. From the vibrant homepage to the detailed Movie/TV Show pages, every corner of Movix exudes the magic of cinema. The homepage kicks off with a sleek banner and a search bar, followed by trending sections. Toggle buttons make sorting a breeze – choose between day and week for Trending, and between Movies and TV Shows for What's Popular and Top Rated. All this comes to a delightful close with an eye-catching footer. "
   },
   {
-    "_id": 2,
-    "projectNo": "Project 2",
-    "name": "E-commerce",
-    "image": "./project/ew.webp",
+    "_id": 4,
+    "projectNo": "Project 4",
+    "name": "Portfolio 3D",
+    "image": "https://i.postimg.cc/QdTyd3Cy/Screenshot-2024-05-08-212450.png",
     "images": [
-      " https://i.ibb.co/wwZJHRW/Screenshot-2024-02-29-121035.png",
-      " https://i.ibb.co/GHhvVDQ/Screenshot-2024-02-29-121117.png",
-      " https://i.ibb.co/znzWhjy/Screenshot-2024-02-29-121150.png",
-      "https://i.ibb.co/9N7LQhh/Screenshot-2024-02-29-121200.png",
-      " https://i.ibb.co/kg4cNdg/Screenshot-2024-02-29-121209.png"
+      "https://i.postimg.cc/QdTyd3Cy/Screenshot-2024-05-08-212450.png",
+      "https://i.postimg.cc/wMWBWrmh/Screenshot-2024-05-08-214311.png",
+      "https://iili.io/Jrgm8va.md.png",
+      "https://iili.io/JrgpyHg.md.png",
+      "https://iili.io/Jrgy9Ra.md.png",
+      "https://iili.io/JrgyFiN.md.png"
+    ],
+    "category": "./techs/filled/nextjs.svg",
+    "technologies": [
+      "java script",
+      "tailwind css",
+      "next.js",
+      "three.js",
+      "framer-motion",
+      "react three fibre",
+      "email.js"
+    ],
+    "features": [
+      "integrate and animate 3D models",
+      "AI-generated images from Playground AI",
+      "Converting 3D models to JSX components",
+      " implement Sound component that will play the music based on user's consent"
+    ],
+    "liveLink": "https://tejasvi8686.vercel.app/",
+    "codeLink": "https://github.com/tejasvi8686/Portfolio_project",
+    "description": " Next.js project with immersive 3D models and animations, AI-generated images from Playground AI, and GitHub stats dynamically using GitHub ReadMe Stats and GitHub Readme Streak Stats. Efficiently integrate 3D models into React projects with Gltf JSX, while refining aesthetics with custom fonts from Google Fonts and Lucide Icons. Engage users with notifications using Sonner, create interactive forms with react-hook-form, and add smooth animations with framer-motion. Seamlessly manage emails with Emailjs and implement a Sound component for music based on user interactions. "
+  },
+  {
+    "_id": 5,
+    "projectNo": "Project 5",
+    "name": "Brainwave",
+    "image": "https://i.postimg.cc/4dT8Q9cm/Screenshot-2024-04-27-222600.png",
+    "images": [
+      "https://i.postimg.cc/4dT8Q9cm/Screenshot-2024-04-27-222600.png",
+      "https://i.postimg.cc/wB55Hbtj/Screenshot-2024-04-27-222610.png",
+      "https://i.postimg.cc/D0vBt3Bh/Screenshot-2024-04-27-222624.png",
+      "https://i.postimg.cc/XYCc1v4F/Screenshot-2024-04-27-222636.png",
+      "https://i.postimg.cc/Xv6KR0YP/Screenshot-2024-04-27-222643.png",
+      "https://i.postimg.cc/6qpfMLp5/Screenshot-2024-04-27-222652.png"
+    ],
+    "category": "./techs/filled/react.svg",
+    "technologies": [
+      "html",
+      "tailwind css",
+      "javascript",
+      "react.js"
+    ],
+    "liveLink": "https://ts-brainwave.vercel.app/",
+    "codeLink": "https://github.com/tejasvi8686/BrainWave",
+    "description": "Create modern website with sleek parallax effects and bento box layouts. It covers everything from stylish UI design to mobile-first principles, while also strengthening your React.js and Tailwind CSS skills. 🙌 "
+  },
+  {
+    "_id": 6,
+    "projectNo": "Project 6",
+    "name": "Gemini Clone",
+    "image": "https://i.ibb.co/ZzmJkVK/Screenshot-2024-05-04-023633.png",
+    "images": [
+      "https://i.ibb.co/ZzmJkVK/Screenshot-2024-05-04-023633.png",
+      "https://i.ibb.co/Wz7sM9z/Screenshot-2024-05-04-023653.png",
+      "https://i.ibb.co/gVyb2Rq/Screenshot-2024-05-04-023723.png"
     ],
     "category": "./techs/filled/react.svg",
     "technologies": [
@@ -51,55 +187,46 @@
       "css",
       "javascript",
       "react.js",
-      "redux"
+      "GEMNI API"
     ],
-    "features": [
-      "navigation",
-      "home-page",
-      "shop-by-category",
-      "latest-gallery",
-      "blog"
-    ],
-    "liveLink": "https://tejasviapneck.netlify.app/",
-    "codeLink": "https://github.com/tejasvi8686/React_Ecommerce_Application",
-    "description": "Apneck is a responsive full e-commerce website built using React. This repository contains the code for the website's frontend. The application utilizes the React Router library to handle client-side routing. It defines various routes for different pages, including the home page, about page, shop page, contact page, login page, signup page, forgot password page, cart page, checkout page, blog page, and product details page. "
+    "liveLink": "https://ts-gemini-clone.vercel.app/",
+    "codeLink": "https://github.com/tejasvi8686/Gemini-Clone",
+    "description": "Built and deployed a fully responsive modern Gemnini Clone using React js GeminiAPI"
   },
   {
-    "_id": 3,
-    "projectNo": "Project 3",
-    "name": "Givan Academy",
-    "image": "./project/gv.webp",
+    "_id": 7,
+    "projectNo": "Project 7",
+    "name": "Iphone 15 website",
+    "image": "https://i.ibb.co/fp5c1F6/Screenshot-2024-05-04-025856.png",
     "images": [
-      "  https://i.ibb.co/WsKkbMw/Screenshot-2024-02-29-155931.png",
-      " https://i.ibb.co/LJrndtk/Screenshot-2024-02-29-155942.png",
-      "  https://i.ibb.co/BrqysW3/Screenshot-2024-02-29-155959.png",
-      "https://i.ibb.co/j89pfYN/Screenshot-2024-02-29-160022.png",
-      " https://i.ibb.co/0jCS87k/Screenshot-2024-02-29-160033.png",
-      " https://i.ibb.co/k2zpLbX/Screenshot-2024-02-29-160043.png",
-      " https://i.ibb.co/vvr4ccZ/Screenshot-2024-02-29-160057.png"
+      "https://i.ibb.co/fp5c1F6/Screenshot-2024-05-04-025856.png",
+      "https://i.ibb.co/yd31MYs/Screenshot-2024-05-04-030019.png",
+      "https://i.ibb.co/L9B5MKN/Screenshot-2024-05-04-030029.png",
+      "https://i.ibb.co/nkccqnS/Screenshot-2024-05-04-030051.png"
     ],
     "category": "./techs/filled/react.svg",
     "technologies": [
       "html",
-      "scss",
+      "tailwind css",
       "javascript",
       "react.js",
-      "redux"
+      "three.js",
+      "gsap",
+      "react three fibre"
     ],
     "features": [
-      "navigation",
-      "home-page",
-      "class filter",
-      "notes download",
-      "scan code payment"
+      "Smooth GSAP Animations",
+      "Dynamic 3D Models",
+      "Custom Video Carousel",
+      "Fully Responsive"
     ],
-    "liveLink": "https://givanacademy.com/",
-    "codeLink": "/",
-    "description": " Discover a coaching platform where students have the opportunity to enroll in classes, access class-specific notes for download, engage with lectures, and where teachers can also apply to be part of the coaching team, facilitating a comprehensive learning experience. "
+    "liveLink": "https://ts-apple-iphone.vercel.app/",
+    "codeLink": "https://github.com/tejasvi8686/apple-Iphone-",
+    "description": "The Apple iPhone 15 Pro website! I've brought it to life with a blend of GSAP animations and Three.js 3D effects. "
   },
   {
-    "_id": 4,
-    "projectNo": "Project 4",
+    "_id": 8,
+    "projectNo": "Project 8",
     "name": "Next Commerce",
     "image": "https://i.ibb.co/DfR7nFq/Screenshot-2024-04-25-182037.png",
     "images": [
@@ -131,38 +258,72 @@
     "description": "The homepage is where users find curated products and can explore Men's, Women's, and Teen's sections. Clicking on a product leads to a detailed page with images, pricing, and an Add to Cart button. The shopping cart allows review before secure checkout via Stripe. Frontend: Next.js with TypeScript and Tailwind CSS. Backend: Sanity for content and Stripe for payments. "
   },
   {
-    "_id": 5,
-    "projectNo": "Project 5",
-    "name": "Youtube Clone",
-    "image": "./project/yt.webp",
+    "_id": 9,
+    "projectNo": "Project 9",
+    "name": "Givan Academy",
+    "image": "./project/gv.webp",
     "images": [
-      "https://i.ibb.co/vdKgWxF/Screenshot-2024-02-29-155207.png",
-      "    https://i.ibb.co/St48f8B/Screenshot-2024-02-29-155255.png",
-      "  https://i.ibb.co/kh09fBb/Screenshot-2024-02-29-155326.png"
+      "  https://i.ibb.co/WsKkbMw/Screenshot-2024-02-29-155931.png",
+      " https://i.ibb.co/LJrndtk/Screenshot-2024-02-29-155942.png",
+      "  https://i.ibb.co/BrqysW3/Screenshot-2024-02-29-155959.png",
+      "https://i.ibb.co/j89pfYN/Screenshot-2024-02-29-160022.png",
+      " https://i.ibb.co/0jCS87k/Screenshot-2024-02-29-160033.png",
+      " https://i.ibb.co/k2zpLbX/Screenshot-2024-02-29-160043.png",
+      " https://i.ibb.co/vvr4ccZ/Screenshot-2024-02-29-160057.png"
+    ],
+    "category": "./techs/filled/react.svg",
+    "technologies": [
+      "html",
+      "scss",
+      "javascript",
+      "react.js",
+      "redux"
+    ],
+    "features": [
+      "navigation",
+      "home-page",
+      "class filter",
+      "notes download",
+      "scan code payment"
+    ],
+    "liveLink": "https://givanacademy.com/",
+    "codeLink": "/",
+    "description": " Discover a coaching platform where students have the opportunity to enroll in classes, access class-specific notes for download, engage with lectures, and where teachers can also apply to be part of the coaching team, facilitating a comprehensive learning experience. "
+  },
+  {
+    "_id": 10,
+    "projectNo": "Project 10",
+    "name": "E-commerce",
+    "image": "./project/ew.webp",
+    "images": [
+      " https://i.ibb.co/wwZJHRW/Screenshot-2024-02-29-121035.png",
+      " https://i.ibb.co/GHhvVDQ/Screenshot-2024-02-29-121117.png",
+      " https://i.ibb.co/znzWhjy/Screenshot-2024-02-29-121150.png",
+      "https://i.ibb.co/9N7LQhh/Screenshot-2024-02-29-121200.png",
+      " https://i.ibb.co/kg4cNdg/Screenshot-2024-02-29-121209.png"
     ],
     "category": "./techs/filled/react.svg",
     "technologies": [
       "html",
       "css",
-      "tailwind",
       "javascript",
       "react.js",
-      "TMDB API"
+      "redux"
     ],
     "features": [
       "navigation",
       "home-page",
-      "genre",
-      "infinite-scroll",
-      "dashboard"
+      "shop-by-category",
+      "latest-gallery",
+      "blog"
     ],
-    "liveLink": "https://clone-c42e9.web.app/",
-    "codeLink": "https://github.com/tejasvi8686/youtube_clone",
-    "description": " the YouTube Clone! This project is the result of dedicated coding and creative design, leveraging the power of React and Tailwind CSS to bring you an exciting video streaming experience. Real-Time Content: The YouTube Clone seamlessly integrates the YouTube API from RapidAPI, ensuring that the video content remains dynamic and up-to-date, just like the original platform. "
+    "liveLink": "https://tejasviapneck.netlify.app/",
+    "codeLink": "https://github.com/tejasvi8686/React_Ecommerce_Application",
+    "description": "Apneck is a responsive full e-commerce website built using React. This repository contains the code for the website's frontend. The application utilizes the React Router library to handle client-side routing. It defines various routes for different pages, including the home page, about page, shop page, contact page, login page, signup page, forgot password page, cart page, checkout page, blog page, and product details page. "
   },
   {
-    "_id": 6,
-    "projectNo": "Project 6",
+    "_id": 11,
+    "projectNo": "Project 11",
     "name": "Gym Website",
     "image": "./project/gm.webp",
     "images": [
@@ -193,8 +354,38 @@
     "description": "It has 6 pages: Home, About, Gallery, Plans, Trainers and Contact. This project helped me improve my React skills 💻 and learn how to use Firebase for hosting."
   },
   {
-    "_id": 7,
-    "projectNo": "Project 7",
+    "_id": 12,
+    "projectNo": "Project 12",
+    "name": "Youtube Clone",
+    "image": "./project/yt.webp",
+    "images": [
+      "https://i.ibb.co/vdKgWxF/Screenshot-2024-02-29-155207.png",
+      "    https://i.ibb.co/St48f8B/Screenshot-2024-02-29-155255.png",
+      "  https://i.ibb.co/kh09fBb/Screenshot-2024-02-29-155326.png"
+    ],
+    "category": "./techs/filled/react.svg",
+    "technologies": [
+      "html",
+      "css",
+      "tailwind",
+      "javascript",
+      "react.js",
+      "TMDB API"
+    ],
+    "features": [
+      "navigation",
+      "home-page",
+      "genre",
+      "infinite-scroll",
+      "dashboard"
+    ],
+    "liveLink": "https://clone-c42e9.web.app/",
+    "codeLink": "https://github.com/tejasvi8686/youtube_clone",
+    "description": " the YouTube Clone! This project is the result of dedicated coding and creative design, leveraging the power of React and Tailwind CSS to bring you an exciting video streaming experience. Real-Time Content: The YouTube Clone seamlessly integrates the YouTube API from RapidAPI, ensuring that the video content remains dynamic and up-to-date, just like the original platform. "
+  },
+  {
+    "_id": 13,
+    "projectNo": "Project 13",
     "name": "Dice Game",
     "image": "./project/dg.webp",
     "images": [
@@ -219,32 +410,8 @@
     "description": "In this game, you can predict the number that will appear on the dice, then click on the dice to roll it randomly. You will get a score based on whether your prediction was right or wrong. 🙌 "
   },
   {
-    "_id": 8,
-    "projectNo": "Project 8",
-    "name": "Brainwave",
-    "image": "https://i.postimg.cc/4dT8Q9cm/Screenshot-2024-04-27-222600.png",
-    "images": [
-      "https://i.postimg.cc/4dT8Q9cm/Screenshot-2024-04-27-222600.png",
-      "https://i.postimg.cc/wB55Hbtj/Screenshot-2024-04-27-222610.png",
-      "https://i.postimg.cc/D0vBt3Bh/Screenshot-2024-04-27-222624.png",
-      "https://i.postimg.cc/XYCc1v4F/Screenshot-2024-04-27-222636.png",
-      "https://i.postimg.cc/Xv6KR0YP/Screenshot-2024-04-27-222643.png",
-      "https://i.postimg.cc/6qpfMLp5/Screenshot-2024-04-27-222652.png"
-    ],
-    "category": "./techs/filled/react.svg",
-    "technologies": [
-      "html",
-      "tailwind css",
-      "javascript",
-      "react.js"
-    ],
-    "liveLink": "https://ts-brainwave.vercel.app/",
-    "codeLink": "https://github.com/tejasvi8686/BrainWave",
-    "description": "Create modern website with sleek parallax effects and bento box layouts. It covers everything from stylish UI design to mobile-first principles, while also strengthening your React.js and Tailwind CSS skills. 🙌 "
-  },
-  {
-    "_id": 9,
-    "projectNo": "Project 9",
+    "_id": 14,
+    "projectNo": "Project 14",
     "name": "TravelApp(UI/UX)",
     "image": "https://i.postimg.cc/T1kjWLGL/Screenshot-2024-04-27-223047.png",
     "images": [
@@ -265,61 +432,6 @@
     "liveLink": "https://travelapp-ui-ux.vercel.app/",
     "codeLink": "https://github.com/tejasvi8686/TravelApp_UI-UX",
     "description": "Built and deployed a fully responsive modern UI/UX website with a simple design using React.js, Next.js 13, and Tailwind CSS."
-  },
-  {
-    "_id": 10,
-    "projectNo": "Project 10",
-    "name": "Gemini Clone",
-    "image": "https://i.ibb.co/ZzmJkVK/Screenshot-2024-05-04-023633.png",
-    "images": [
-      "https://i.ibb.co/ZzmJkVK/Screenshot-2024-05-04-023633.png",
-      "https://i.ibb.co/Wz7sM9z/Screenshot-2024-05-04-023653.png",
-      "https://i.ibb.co/gVyb2Rq/Screenshot-2024-05-04-023723.png"
-    ],
-    "category": "./techs/filled/react.svg",
-    "technologies": [
-      "html",
-      "css",
-      "javascript",
-      "react.js",
-      "GEMNI API"
-    ],
-    "liveLink": "https://ts-gemini-clone.vercel.app/",
-    "codeLink": "https://github.com/tejasvi8686/Gemini-Clone",
-    "description": "Built and deployed a fully responsive modern Gemnini Clone using React js GeminiAPI"
-  },
-  {
-    "_id": 11,
-    "projectNo": "Project 11",
-    "name": "Iphone 15 website",
-    "image": "https://i.ibb.co/fp5c1F6/Screenshot-2024-05-04-025856.png",
-    "images": [
-      "https://i.ibb.co/fp5c1F6/Screenshot-2024-05-04-025856.png",
-      "https://i.ibb.co/yd31MYs/Screenshot-2024-05-04-030019.png",
-      "https://i.ibb.co/L9B5MKN/Screenshot-2024-05-04-030029.png",
-      "https://i.ibb.co/nkccqnS/Screenshot-2024-05-04-030051.png"
-   
-
-   
-    ],
-    "category": "./techs/filled/react.svg",
-    "technologies": [
-      "html",
-      "tailwind css",
-      "javascript",
-      "react.js",
-      "three.js",
-      "gsap",
-      "react three fibre"
-    ],
-    "features": [
-      "Smooth GSAP Animations",
-      "Dynamic 3D Models",
-      "Custom Video Carousel",
-      "Fully Responsive"
-    ],
-    "liveLink": "https://ts-gemini-clone.vercel.app/",
-    "codeLink": "https://github.com/tejasvi8686/Gemini-Clone",
-    "description": "The Apple iPhone 15 Pro website! I've brought it to life with a blend of GSAP animations and Three.js 3D effects. "
   }
+
 ]

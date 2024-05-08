@@ -2,6 +2,26 @@
   {
     "_id": 1,
     "projectno": "Project 1",
+    "title": "Yoom",
+    "image": "./techs/filled/nextjs.svg",
+    "url": "https://i.postimg.cc/c1QdKRnh/Screenshot-2024-05-08-192256.png",
+    "description": "TYPESCRIPT, TAILWIND CSS, SHADCN UI ,NEXT.JS, STREAM API, CLERK",
+    "liveLink": "https://yoom-app-woadzz.vercel.app/",
+    "codeLink": "https://github.com/tejasvi8686/Video-Conferencing-App"
+  },
+  {
+    "_id": 2,
+    "projectno": "Project 2",
+    "title": "Form Builder",
+    "image": "./techs/filled/nextjs.svg",
+    "url": "https://i.postimg.cc/NF1NDfc9/Screenshot-2024-05-08-192458.png",
+    "description": "TYPESCRIPT, SHADCN UI ,NEXT.JS, PRISMA, PostgreSQL, TAILWIND CSS",
+    "liveLink": "https://ts-form-builder.vercel.app/",
+    "codeLink": "https://github.com/tejasvi8686/Form_builder_app"
+  },
+  {
+    "_id": 3,
+    "projectno": "Project 3",
     "title": "Movix",
     "image": "./techs/filled/react.svg",
     "url": "./project/mx.webp",
@@ -10,68 +30,18 @@
     "codeLink": "https://github.com/tejasvi8686/Movix.git"
   },
   {
-    "_id": 2,
-    "projectno": "Project 2",
-    "title": "E-commerce",
-    "image": "./techs/filled/react.svg",
-    "url": "./project/ew.webp",
-    "description": "HTML, CSS, JAVASCRIPT, REACT.JS, REDUX.",
-    "liveLink": "https://tejasviapneck.netlify.app/",
-    "codeLink": "https://github.com/tejasvi8686/React_Ecommerce_Application"
-  },
-  {
-    "_id": 3,
-    "projectno": "Project 3",
-    "title": "Givan Academy",
-    "image": "./techs/filled/react.svg",
-    "url": "./project/gv.webp",
-    "description": "HTML, SCSS, JAVASCRIPT, REACT.JS.",
-    "liveLink": "https://givanacademy.com/",
-    "codeLink": ""
-  },
-  {
     "_id": 4,
     "projectno": "Project 4",
-    "title": "Next Commerce",
+    "title": "Portfolio 3D",
     "image": "./techs/filled/nextjs.svg",
-    "url": "https://i.ibb.co/DfR7nFq/Screenshot-2024-04-25-182037.png",
-    "description": "HTML, TYPESCRIPT, NEXT.JS, SANIY, TAILWINDCSS",
-    "liveLink": "https://commerce-next-yt.vercel.app/",
-    "codeLink": "https://github.com/tejasvi8686/E-commerce-Next.js/tree/main"
+    "url": "https://i.postimg.cc/QdTyd3Cy/Screenshot-2024-05-08-212450.png",
+    "description": "NEXTJS, THREE.JS, TAILWIND CSS, FRAMER-MOTION , EMAIL JS",
+    "liveLink": "https://tejasvi8686.vercel.app/",
+    "codeLink": "https://github.com/tejasvi8686/Portfolio_project"
   },
   {
     "_id": 5,
     "projectno": "Project 5",
-    "title": "Youtube Clone",
-    "image": "./techs/filled/react.svg",
-    "url": "./project/yt.webp",
-    "description": "HTML, TAILWIND, REACT.JS, RAPID API.",
-    "liveLink": "https://clone-c42e9.web.app/",
-    "codeLink": "https://github.com/tejasvi8686/youtube_clone"
-  },
-  {
-    "_id": 6,
-    "projectno": "Project 6",
-    "title": "Gym Website",
-    "image": "./techs/filled/react.svg",
-    "url": "./project/gm.webp",
-    "description": "HTML, CSS, JAVASCRIPT, REACT.JS.",
-    "liveLink": "https://react-modern-website.web.app/",
-    "codeLink": "https://github.com/tejasvi8686/React_Morden_Website"
-  },
-  {
-    "_id": 7,
-    "projectno": "Project 7",
-    "title": "Dice Game",
-    "image": "./techs/filled/react.svg",
-    "url": "./project/dg.webp",
-    "description": "HTML, CSS, JAVASCRIPT, REACT.JS.",
-    "liveLink": "https://tejsavidicegames.netlify.app/",
-    "codeLink": "https://github.com/tejasvi8686/Dice_game"
-  },
-  {
-    "_id": 8,
-    "projectno": "Project 8",
     "title": "Brainwave",
     "image": "./techs/filled/react.svg",
     "url": "https://i.postimg.cc/4dT8Q9cm/Screenshot-2024-04-27-222600.png",
@@ -80,18 +50,8 @@
     "codeLink": "https://github.com/tejasvi8686/BrainWave"
   },
   {
-    "_id": 9,
-    "projectno": "Project 9",
-    "title": "Travel_App(UI/UX)",
-    "image": "./techs/filled/nextjs.svg",
-    "url": "https://i.postimg.cc/T1kjWLGL/Screenshot-2024-04-27-223047.png",
-    "description": "HTML, TAILWIND CSS, TYPESCRIPT, NEXT.JS.",
-    "liveLink": "https://travelapp-ui-ux.vercel.app/",
-    "codeLink": "https://github.com/tejasvi8686/TravelApp_UI-UX"
-  },
-  {
-    "_id": 10,
-    "projectno": "Project 10",
+    "_id": 6,
+    "projectno": "Project 6",
     "title": "Gemini Clone",
     "image": "./techs/filled/react.svg",
     "url": "https://i.ibb.co/ZzmJkVK/Screenshot-2024-05-04-023633.png",
@@ -100,13 +60,83 @@
     "codeLink": "https://github.com/tejasvi8686/Gemini-Clone"
   },
   {
-    "_id": 11,
-    "projectno": "Project 11",
+    "_id": 7,
+    "projectno": "Project 7",
     "title": "Iphone 15",
     "image": "./techs/filled/react.svg",
     "url": "https://i.ibb.co/fp5c1F6/Screenshot-2024-05-04-025856.png",
     "description": "HTML, TAILWIND CSS, JAVASCRIPT, REACT.JS. , THREE.JS, GSAP",
     "liveLink": "https://ts-apple-iphone.vercel.app/",
     "codeLink": "https://github.com/tejasvi8686/apple-Iphone-"
+  },
+  {
+    "_id": 8,
+    "projectno": "Project 8",
+    "title": "Next Commerce",
+    "image": "./techs/filled/nextjs.svg",
+    "url": "https://i.ibb.co/DfR7nFq/Screenshot-2024-04-25-182037.png",
+    "description": "HTML, TYPESCRIPT, NEXT.JS, SANIY, TAILWINDCSS",
+    "liveLink": "https://commerce-next-yt.vercel.app/",
+    "codeLink": "https://github.com/tejasvi8686/E-commerce-Next.js/tree/main"
+  },
+  {
+    "_id": 9,
+    "projectno": "Project 9",
+    "title": "Givan Academy",
+    "image": "./techs/filled/react.svg",
+    "url": "./project/gv.webp",
+    "description": "HTML, SCSS, JAVASCRIPT, REACT.JS.",
+    "liveLink": "https://givanacademy.com/",
+    "codeLink": ""
+  },
+  {
+    "_id": 10,
+    "projectno": "Project 10",
+    "title": "E-commerce",
+    "image": "./techs/filled/react.svg",
+    "url": "./project/ew.webp",
+    "description": "HTML, CSS, JAVASCRIPT, REACT.JS, REDUX.",
+    "liveLink": "https://tejasviapneck.netlify.app/",
+    "codeLink": "https://github.com/tejasvi8686/React_Ecommerce_Application"
+  },
+  {
+    "_id": 11,
+    "projectno": "Project 11",
+    "title": "Gym Website",
+    "image": "./techs/filled/react.svg",
+    "url": "./project/gm.webp",
+    "description": "HTML, CSS, JAVASCRIPT, REACT.JS.",
+    "liveLink": "https://react-modern-website.web.app/",
+    "codeLink": "https://github.com/tejasvi8686/React_Morden_Website"
+  },
+  {
+    "_id": 12,
+    "projectno": "Project 12",
+    "title": "Youtube Clone",
+    "image": "./techs/filled/react.svg",
+    "url": "./project/yt.webp",
+    "description": "HTML, TAILWIND, REACT.JS, RAPID API.",
+    "liveLink": "https://clone-c42e9.web.app/",
+    "codeLink": "https://github.com/tejasvi8686/youtube_clone"
+  },
+  {
+    "_id": 13,
+    "projectno": "Project 13",
+    "title": "Dice Game",
+    "image": "./techs/filled/react.svg",
+    "url": "./project/dg.webp",
+    "description": "HTML, CSS, JAVASCRIPT, REACT.JS.",
+    "liveLink": "https://tejsavidicegames.netlify.app/",
+    "codeLink": "https://github.com/tejasvi8686/Dice_game"
+  },
+  {
+    "_id": 14,
+    "projectno": "Project 14",
+    "title": "Travel_App(UI/UX)",
+    "image": "./techs/filled/nextjs.svg",
+    "url": "https://i.postimg.cc/T1kjWLGL/Screenshot-2024-04-27-223047.png",
+    "description": "HTML, TAILWIND CSS, TYPESCRIPT, NEXT.JS.",
+    "liveLink": "https://travelapp-ui-ux.vercel.app/",
+    "codeLink": "https://github.com/tejasvi8686/TravelApp_UI-UX"
   }
 ]
