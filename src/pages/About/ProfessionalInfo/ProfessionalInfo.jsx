@@ -14,6 +14,7 @@ import NavSkills from "./Skills/NavSkills";
 import OtherSkills from "./Skills/OtherSkills";
 import BackEnd from "./Skills/BackEnd";
 import FrontEnd from "./Skills/FrontEnd";
+import Experience from "./Exprerience/Experience";
 
 const ProfessionalInfo = () => {
   const [showInfo, setShowInfo] = useState(true);
@@ -98,7 +99,7 @@ const ProfessionalInfo = () => {
                 {/* skill nav  */}
                 <NavSkills selectedStatus={setSelectedMenu} />
                 {/* experience nav  */}
-                {/* <NavExperience selectedStatus={setSelectedMenu} /> */}
+                <NavExperience selectedStatus={setSelectedMenu} />
               </div>
             ) : (
               ""
@@ -127,6 +128,7 @@ const ProfessionalInfo = () => {
             {selectedMenu === "back-end" && <BackEnd />}
             {selectedMenu === "database" && <Database />}
             {selectedMenu === "other-skills" && <OtherSkills />}
+            {selectedMenu === "institute" && <Experience />}
           </div>
         </Sticky>
       </div>

@@ -12,17 +12,17 @@ const Experience = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentArrowStyle={{ borderRight: "7px solid  #1E2D3D" }}
-          date="2024 - present"
+          date="2023(nov) - 2024(feb)"
           iconStyle={{ background: "#011627", color: "#fff" }}
           icon={<FaGraduationCap />}
         >
           <h3 className="vertical-timeline-element-title">
-            B.Tech. In <strong>(CSE)</strong>
+            React.js <strong>(Intern)</strong>
           </h3>
           <br />
           <h4 className="vertical-timeline-element-subtitle">
-            Dr. K. N. Modi Institute of Engineering & Technology{" "}
-            <strong>(KNMIET)</strong>
+            Own Technologies{" "}
+            <strong>(FrontEnd)</strong>
           </h4>
         </VerticalTimelineElement>
       </VerticalTimeline>

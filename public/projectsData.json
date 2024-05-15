@@ -17,7 +17,7 @@
     ],
     "category": "./techs/filled/nextjs.svg",
     "technologies": [
-      "type script",
+      "typescript",
       "tailwind css",
       "shadcn",
       "next.js",

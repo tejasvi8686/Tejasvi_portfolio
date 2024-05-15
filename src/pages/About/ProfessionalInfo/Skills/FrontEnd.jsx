@@ -4,6 +4,8 @@ import css from "../../../../assets/images/skills/css-3.png";
 import html from "../../../../assets/images/skills/html-5.png";
 import js from "../../../../assets/images/skills/js.png";
 import react from "../../../../assets/images/skills/physics.png";
+import typescript from "../../../../assets/images/skills/typescript.png"
+import Nextjs from "../../../../../public/techs/filled/nextjs.svg"
 
 const FrontEnd = () => {
   return (
@@ -39,19 +41,23 @@ const FrontEnd = () => {
         <h2 className="text-2xl text-s1 mb-5 mt-10  flex items-center">
           {`//_language & libraries`}
         </h2>
-        <div className="flex gap-10">
+        <div className="flex gap-5 items-center">
           <figure>
             <img src={js} alt="javascript" />
             <p>JavaScript</p>
+          </figure>
+          <figure>
+            <img src={typescript} alt="javascript" />
+            <p>TypeScript</p>
           </figure>
           <figure className="text-center">
             <img src={react} alt="react" />
             <p>React.js</p>
           </figure>
-          {/* <figure>
-            <img src={nextjs} alt="nextjs" className="w-16" />
-            <p className="text-lg">Next.js</p>
-          </figure> */}
+          <figure className="text-center">
+            <img src={Nextjs} alt="nextjs" className="w-20" />
+            <p>Next.js</p>
+          </figure>
         </div>
       </>
     </div>

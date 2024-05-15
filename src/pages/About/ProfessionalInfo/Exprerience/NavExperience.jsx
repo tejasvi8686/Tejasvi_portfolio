@@ -9,7 +9,7 @@ import {
 import Experience from "./Experience";
 
 const NavExperience = ({ selectedStatus }) => {
-  // const [eduInstitute, setEduInstitute] = useState("");
+  const [eduInstitute, setEduInstitute] = useState("");
   const [showInfo, setShowInfo] = useState(false);
   return (
     <>
@@ -26,10 +26,10 @@ const NavExperience = ({ selectedStatus }) => {
         <span className={`${showInfo && "text-white"}`}>experience</span>
       </div>
       {showInfo ? (
-        <div data-aos="fade-in" className="pl-8 mt-3 space-y-2">
+        <div data-aos="fade-in" className="pl-8 pb-5 mt-3 space-y-2">
           <p
             onClick={() => selectedStatus("institute")}
-            className="flex items-center gap-1"
+            className="flex items-center gap-1 cursor-pointer"
           >
             <RiFileHistoryFill size={24} /> work-history
           </p>
