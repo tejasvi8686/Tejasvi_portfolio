@@ -138,5 +138,16 @@
     "description": "HTML, TAILWIND CSS, TYPESCRIPT, NEXT.JS.",
     "liveLink": "https://travelapp-ui-ux.vercel.app/",
     "codeLink": "https://github.com/tejasvi8686/TravelApp_UI-UX"
+  },
+  {
+    "_id": 15,
+    "projectno": "Project 15",
+    "title": "uifry",
+    "image": "./techs/filled/nextjs.svg",
+    "url": "https://i.ibb.co/bQxFwDL/Screenshot-2024-06-17-204208.png",
+    "description": "NEXTJS, TYPESCRIPT, TAILWIND CSS, FRAMER-MOTION , Shadcn",
+    "liveLink": "https://tejasvi-design.vercel.app/",
+    "codeLink": "https://github.com/tejasvi8686/Responsive-App-Landing-Page-Design"
   }
 ]
+

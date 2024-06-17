@@ -432,6 +432,40 @@
     "liveLink": "https://travelapp-ui-ux.vercel.app/",
     "codeLink": "https://github.com/tejasvi8686/TravelApp_UI-UX",
     "description": "Built and deployed a fully responsive modern UI/UX website with a simple design using React.js, Next.js 13, and Tailwind CSS."
+  },
+  {
+    "_id": 15,
+    "projectNo": "Project 15",
+    "name": "Uifry",
+    "image": "https://i.ibb.co/bQxFwDL/Screenshot-2024-06-17-204208.png",
+    "images": [
+      "https://i.ibb.co/bQxFwDL/Screenshot-2024-06-17-204208.png",
+      "https://i.ibb.co/L8CmDjL/Screenshot-2024-06-17-204222.png",
+      "https://i.ibb.co/c3FDBPv/Screenshot-2024-06-17-204237.png",
+      "https://i.ibb.co/5nVtKVj/Screenshot-2024-06-17-204252.png",
+      "https://i.ibb.co/Ng0ycHj/Screenshot-2024-06-17-204317.png",
+      "https://i.ibb.co/0yMDqr5/Screenshot-2024-06-17-204332.png",
+      "https://i.ibb.co/sVvfM6B/Screenshot-2024-06-17-204450.png"
+    ],
+    "category": "./techs/filled/nextjs.svg",
+    "technologies": [
+      "Next.js",
+      "tailwind css",
+      "typescript",
+      "framer-motion",
+      "shadcn"
+    ],
+    "features": [
+      "Dark Mode: Implemented dark mode features.",
+      "Carousel: Slider in FAQ.",
+      "Responsive Design: Optimized for all devices.",
+      "Animation: Created with Framer Motion."
+
+    ],
+    "liveLink": "https://travelapp-ui-ux.vercel.app/",
+    "codeLink": "https://github.com/tejasvi8686/Responsive-App-Landing-Page-Design",
+    "description": "I've developed a modern and responsive landing page using Next.js and TypeScript. This project showcases my skills in creating dynamic, high-performance web applications with a focus on user experience and maintainable code."
   }
 
 ]
+
