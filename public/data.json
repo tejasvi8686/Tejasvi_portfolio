@@ -148,6 +148,35 @@
     "description": "NEXTJS, TYPESCRIPT, TAILWIND CSS, FRAMER-MOTION , Shadcn",
     "liveLink": "https://tejasvi-design.vercel.app/",
     "codeLink": "https://github.com/tejasvi8686/Responsive-App-Landing-Page-Design"
+  },
+  {
+    "_id": 16,
+    "projectno": "Project 16",
+    "title": "my_company",
+    "image": "./techs/filled/nextjs.svg",
+    "url": "https://i.ibb.co/jHJG8qv/Screenshot-2024-08-22-164855.png",
+    "description": "NEXTJS, TYPESCRIPT, TAILWIND CSS, Shadcn",
+    "liveLink": "https://assigment-mycompany.vercel.app/",
+    "codeLink": "https://github.com/tejasvi8686/my_company"
+  },{
+    "_id": 17,
+    "projectno": "Project 17",
+    "title": "battire_page",
+    "image": "./techs/filled/nextjs.svg",
+    "url": "https://i.ibb.co/1sJq3LP/Screenshot-2024-08-22-165407.png",
+    "description": "NEXTJS, TYPESCRIPT, TAILWIND CSS, FRAMER-MOTION, Shadcn",
+    "liveLink": "https://battire-landing-page.vercel.app/",
+    "codeLink": "https://github.com/tejasvi8686/Battire-Landing_page-"
+  },
+  {
+    "_id": 18,
+    "projectno": "Project 18",
+    "title": "crud_mearn",
+    "image": "./techs/filled/nextjs.svg",
+    "url": "https://i.ibb.co/1sJq3LP/Screenshot-2024-08-22-165407.png",
+    "description": "NEXTJS, TYPESCRIPT, TAILWIND CSS, FRAMER-MOTION, Shadcn",
+    "liveLink": "https://crud-mearn.onrender.com/",
+    "codeLink": "https://github.com/tejasvi8686/CRUD_Mearn"
   }
 ]
 

@@ -465,6 +465,47 @@
     "liveLink": "https://tejasvi-design.vercel.app/",
     "codeLink": "https://github.com/tejasvi8686/Responsive-App-Landing-Page-Design",
     "description": "I've developed a modern and responsive landing page using Next.js and TypeScript. This project showcases my skills in creating dynamic, high-performance web applications with a focus on user experience and maintainable code."
+  },
+  {
+    "_id": 16,
+    "projectNo": "Project 16",
+    "name": "my_company",
+    "image": "https://i.ibb.co/jHJG8qv/Screenshot-2024-08-22-164855.png",
+    "images": [
+
+    ],
+    "category": "./techs/filled/nextjs.svg",
+    "technologies": [
+      "Next.js",
+      "tailwind css",
+      "typescript",
+      "shadcn"
+    ],
+
+    "liveLink": "https://assigment-mycompany.vercel.app/",
+    "codeLink": "https://github.com/tejasvi8686/my_company",
+    "description": "I've developed a modern and responsive landing page using Next.js and TypeScript. This project showcases my skills in creating dynamic, high-performance web applications."
+  },
+  {
+    "_id": 17,
+    "projectNo": "Project 17",
+    "name": "battire_page",
+    "image": "https://i.ibb.co/1sJq3LP/Screenshot-2024-08-22-165407.png",
+    "images": [
+
+    ],
+    "category": "./techs/filled/nextjs.svg",
+    "technologies": [
+      "Next.js",
+      "tailwind css",
+      "typescript",
+      "framer-motion",
+      "shadcn"
+    ],
+  
+    "liveLink": "https://battire-landing-page.vercel.app/",
+    "codeLink": "https://github.com/tejasvi8686/Battire-Landing_page-",
+    "description": "I've developed a modern and responsive landing page using Next.js and TypeScript."
   }
 
 ]
