@@ -1,4 +1,4 @@
-import { FaFortAwesome, FaGraduationCap } from "react-icons/fa";
+import {  FaGraduationCap } from "react-icons/fa";
 
 import {
   VerticalTimeline,
@@ -12,7 +12,7 @@ const Education = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentArrowStyle={{ borderRight: "7px solid  #1E2D3D" }}
-          date="2024 - present"
+          date="2020 - 2024"
           iconStyle={{ background: "#011627", color: "#fff" }}
           icon={<FaGraduationCap />}
         >
@@ -24,6 +24,9 @@ const Education = () => {
             Dr. K. N. Modi Institute of Engineering & Technology{" "}
             <strong>(KNMIET)</strong>
           </h4>
+          <p className="text-s2">
+            <span className="font-semibold text-s3">CGPA:</span> 7.40
+          </p>
         </VerticalTimelineElement>
    
       </VerticalTimeline>
