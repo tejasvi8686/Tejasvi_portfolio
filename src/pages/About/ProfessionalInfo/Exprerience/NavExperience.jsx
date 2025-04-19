@@ -1,15 +1,15 @@
 import { useState } from "react";
-import { FaIndustry } from "react-icons/fa";
+//import { FaIndustry } from "react-icons/fa";
 import {
   RiArrowDownSLine,
   RiArrowRightSLine,
   RiFileHistoryFill,
   RiFolder3Fill,
 } from "react-icons/ri";
-import Experience from "./Experience";
+//import Experience from "./Experience";
 
 const NavExperience = ({ selectedStatus }) => {
-  const [eduInstitute, setEduInstitute] = useState("");
+  //const [eduInstitute, setEduInstitute] = useState("");
   const [showInfo, setShowInfo] = useState(false);
   return (
     <>

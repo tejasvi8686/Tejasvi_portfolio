@@ -11,20 +11,52 @@
   box-sizing: border-box;
 }
 
-.trt {
+.all {
   height: 2400px;
 }
 @media screen and (min-width: 650px) and  (max-width: 985px) {
-  .trt {
+  .all {
     height: 220px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .trt {
+  .all {
     height: 220px;
   }
 }
+
+.react {
+  height: 1300px;
+}
+@media screen and (min-width: 650px) and  (max-width: 985px) {
+  .react {
+    height: 220px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .react {
+    height: 220px;
+  }
+}
+
+
+.nextjs {
+  height: 1300px;
+}
+@media screen and (min-width: 650px) and  (max-width: 985px) {
+  .nextjs {
+    height: 220px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nextjs {
+    height: 220px;
+  }
+}
+
 
 .css-blurry-gradient-blue {
   position: fixed;
