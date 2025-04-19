@@ -4,12 +4,16 @@ import { Link } from "react-router-dom";
 import { MdViewInAr } from "react-icons/md";
 import { RiCodeSSlashFill } from "react-icons/ri";
 const ProjectCard = () => {
+
+
+  
+
   return (
-    <div className="border-b  border-p4 w-full h-11">
-    <div className="md:min-h-[calc(100%-40px)] md:pb-20 pb-20 mt-10 lg:mt-0 relative">
+    <div className=" w-full h-11">
+    <div className="md:min-h-[calc(100%-40px)] md:pb-20 pb-20  lg:mt-0 relative">
       {/* <h1 className="text-3xl text-center mt-20 lg:mt-15">React.js</h1> */}
       <main
-        className="border-none lg:pt-10 pt-10 lg:px-10 px-5 md:grid md:grid-cols-2 lg:grid-cols-3 gap-5 lg:space-y-0 space-y-6 mt-16 lg:mt-15"
+        className="border-none lg:pt-10 lg:px-10 px-5 md:grid md:grid-cols-2 lg:grid-cols-3 gap-5 lg:space-y-0 space-y-6 lg:mt-15"
         style={{ alignItems: "baseline" }}
       >
         {data.map((item, index) => (

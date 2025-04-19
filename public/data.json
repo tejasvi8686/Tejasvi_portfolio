@@ -2,6 +2,16 @@
   {
     "_id": 1,
     "projectno": "Project 1",
+    "title": "AI Car Marketplace",
+    "image": "./techs/filled/nextjs.svg",
+    "url": "https://i.ibb.co/Xf3ZZ054/Screenshot-2025-04-19-at-10-37-36-PM.png",
+    "description": "NEXTJS, TYPESCRIPT, TAILWIND CSS, FRAMER-MOTION, Shadcn",
+    "liveLink": "https://ai-car-market.vercel.app/",
+    "codeLink": "https://github.com/tejasvi8686/ai-car"
+  },
+  {
+    "_id": 2,
+    "projectno": "Project 2",
     "title": "Yoom",
     "image": "./techs/filled/nextjs.svg",
     "url": "https://i.postimg.cc/c1QdKRnh/Screenshot-2024-05-08-192256.png",
@@ -10,8 +20,8 @@
     "codeLink": "https://github.com/tejasvi8686/Video-Conferencing-App"
   },
   {
-    "_id": 2,
-    "projectno": "Project 2",
+    "_id": 3,
+    "projectno": "Project 3",
     "title": "Form Builder",
     "image": "./techs/filled/nextjs.svg",
     "url": "https://i.postimg.cc/NF1NDfc9/Screenshot-2024-05-08-192458.png",
@@ -20,8 +30,8 @@
     "codeLink": "https://github.com/tejasvi8686/Form_builder_app"
   },
   {
-    "_id": 3,
-    "projectno": "Project 3",
+    "_id": 4,
+    "projectno": "Project 4",
     "title": "Movix",
     "image": "./techs/filled/react.svg",
     "url": "./project/mx.webp",
@@ -30,8 +40,8 @@
     "codeLink": "https://github.com/tejasvi8686/Movix.git"
   },
   {
-    "_id": 4,
-    "projectno": "Project 4",
+    "_id": 5,
+    "projectno": "Project 5",
     "title": "Portfolio 3D",
     "image": "./techs/filled/nextjs.svg",
     "url": "https://i.postimg.cc/QdTyd3Cy/Screenshot-2024-05-08-212450.png",
@@ -40,8 +50,8 @@
     "codeLink": "https://github.com/tejasvi8686/Portfolio_project"
   },
   {
-    "_id": 5,
-    "projectno": "Project 5",
+    "_id": 6,
+    "projectno": "Project 6",
     "title": "Brainwave",
     "image": "./techs/filled/react.svg",
     "url": "https://i.postimg.cc/4dT8Q9cm/Screenshot-2024-04-27-222600.png",
@@ -50,8 +60,8 @@
     "codeLink": "https://github.com/tejasvi8686/BrainWave"
   },
   {
-    "_id": 6,
-    "projectno": "Project 6",
+    "_id": 7,
+    "projectno": "Project 7",
     "title": "Gemini Clone",
     "image": "./techs/filled/react.svg",
     "url": "https://i.ibb.co/ZzmJkVK/Screenshot-2024-05-04-023633.png",
@@ -60,8 +70,8 @@
     "codeLink": "https://github.com/tejasvi8686/Gemini-Clone"
   },
   {
-    "_id": 7,
-    "projectno": "Project 7",
+    "_id": 8,
+    "projectno": "Project 8",
     "title": "Iphone 15",
     "image": "./techs/filled/react.svg",
     "url": "https://i.ibb.co/fp5c1F6/Screenshot-2024-05-04-025856.png",
@@ -70,8 +80,8 @@
     "codeLink": "https://github.com/tejasvi8686/apple-Iphone-"
   },
   {
-    "_id": 8,
-    "projectno": "Project 8",
+    "_id": 9,
+    "projectno": "Project 9",
     "title": "Next Commerce",
     "image": "./techs/filled/nextjs.svg",
     "url": "https://i.ibb.co/DfR7nFq/Screenshot-2024-04-25-182037.png",
@@ -80,8 +90,8 @@
     "codeLink": "https://github.com/tejasvi8686/E-commerce-Next.js/tree/main"
   },
   {
-    "_id": 9,
-    "projectno": "Project 9",
+    "_id": 10,
+    "projectno": "Project 10",
     "title": "Givan Academy",
     "image": "./techs/filled/react.svg",
     "url": "./project/gv.webp",
@@ -90,8 +100,8 @@
     "codeLink": ""
   },
   {
-    "_id": 10,
-    "projectno": "Project 10",
+    "_id": 11,
+    "projectno": "Project 11",
     "title": "E-commerce",
     "image": "./techs/filled/react.svg",
     "url": "./project/ew.webp",
@@ -100,8 +110,8 @@
     "codeLink": "https://github.com/tejasvi8686/React_Ecommerce_Application"
   },
   {
-    "_id": 11,
-    "projectno": "Project 11",
+    "_id": 12,
+    "projectno": "Project 12",
     "title": "Gym Website",
     "image": "./techs/filled/react.svg",
     "url": "./project/gm.webp",
@@ -110,8 +120,8 @@
     "codeLink": "https://github.com/tejasvi8686/React_Morden_Website"
   },
   {
-    "_id": 12,
-    "projectno": "Project 12",
+    "_id": 13,
+    "projectno": "Project 13",
     "title": "Youtube Clone",
     "image": "./techs/filled/react.svg",
     "url": "./project/yt.webp",
@@ -120,8 +130,8 @@
     "codeLink": "https://github.com/tejasvi8686/youtube_clone"
   },
   {
-    "_id": 13,
-    "projectno": "Project 13",
+    "_id": 14,
+    "projectno": "Project 14",
     "title": "Dice Game",
     "image": "./techs/filled/react.svg",
     "url": "./project/dg.webp",
@@ -130,8 +140,8 @@
     "codeLink": "https://github.com/tejasvi8686/Dice_game"
   },
   {
-    "_id": 14,
-    "projectno": "Project 14",
+    "_id": 15,
+    "projectno": "Project 15",
     "title": "Travel_App(UI/UX)",
     "image": "./techs/filled/nextjs.svg",
     "url": "https://i.postimg.cc/T1kjWLGL/Screenshot-2024-04-27-223047.png",
@@ -140,8 +150,8 @@
     "codeLink": "https://github.com/tejasvi8686/TravelApp_UI-UX"
   },
   {
-    "_id": 15,
-    "projectno": "Project 15",
+    "_id": 16,
+    "projectno": "Project 16",
     "title": "uifry",
     "image": "./techs/filled/nextjs.svg",
     "url": "https://i.ibb.co/bQxFwDL/Screenshot-2024-06-17-204208.png",
@@ -150,8 +160,8 @@
     "codeLink": "https://github.com/tejasvi8686/Responsive-App-Landing-Page-Design"
   },
   {
-    "_id": 16,
-    "projectno": "Project 16",
+    "_id": 17,
+    "projectno": "Project 17",
     "title": "my_company",
     "image": "./techs/filled/nextjs.svg",
     "url": "https://i.ibb.co/jHJG8qv/Screenshot-2024-08-22-164855.png",
@@ -159,24 +169,15 @@
     "liveLink": "https://assigment-mycompany.vercel.app/",
     "codeLink": "https://github.com/tejasvi8686/my_company"
   },{
-    "_id": 17,
-    "projectno": "Project 17",
+    "_id": 18,
+    "projectno": "Project 18",
     "title": "battire_page",
     "image": "./techs/filled/nextjs.svg",
     "url": "https://i.ibb.co/1sJq3LP/Screenshot-2024-08-22-165407.png",
     "description": "NEXTJS, TYPESCRIPT, TAILWIND CSS, FRAMER-MOTION, Shadcn",
     "liveLink": "https://battire-landing-page.vercel.app/",
     "codeLink": "https://github.com/tejasvi8686/Battire-Landing_page-"
-  },
-  {
-    "_id": 18,
-    "projectno": "Project 18",
-    "title": "crud_mearn",
-    "image": "./techs/filled/nextjs.svg",
-    "url": "https://i.ibb.co/1sJq3LP/Screenshot-2024-08-22-165407.png",
-    "description": "NEXTJS, TYPESCRIPT, TAILWIND CSS, FRAMER-MOTION, Shadcn",
-    "liveLink": "https://crud-mearn.onrender.com/",
-    "codeLink": "https://github.com/tejasvi8686/CRUD_Mearn"
   }
+
 ]
 

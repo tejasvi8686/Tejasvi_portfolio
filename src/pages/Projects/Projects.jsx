@@ -8,6 +8,7 @@ import {
   RiHtml5Fill,
   RiReactjsFill,
   RiStackFill,
+  RiSmartphoneFill,
 } from "react-icons/ri";
 
 import Sticky from "react-stickynode";
@@ -43,7 +44,6 @@ const Projects = () => {
       const data = await response.json();
       setAllProjects(data);
       setFilteredProjects(data);
-      setProjects(data);
     } catch (error) {
       console.error("Error fetching project data:", error);
     }
@@ -68,67 +68,96 @@ const Projects = () => {
         <title>Projects | Tejasvi Raj</title>
       </Helmet>
       <div className="lg:h-full w-full text-s1 lg:flex">
-        <div className="min-w-[21%] border-r border-p4 ">
-          <Sticky
-            enabled={true}
-            top={60}
-            innerActiveClass="max-lg:!static max-lg:!transform-none max-lg:!w-auto"
+        {windowWidth > 800 ? (
+          <div
+            className={`min-w-[21%] border-r border-p4 ${
+              selectedCategory === "all"
+                ? "all"
+                : selectedCategory === "react"
+                ? "react"
+                : selectedCategory === "nextjs"
+                ? "nextjs"
+                : ""
+            }`}
           >
-            <div
-              data-aos="fade-down"
-              onClick={() => setShowInfo(!showInfo)}
-              className={`${
-                showInfo ? "text-white" : ""
-              } pl-4 border-b border-p4 w-full h-10 flex gap-1 items-center px-3 cursor-pointer`}
+            <Sticky
+              enabled={true}
+              top={60}
+              innerActiveClass="max-lg:!static max-lg:!transform-none max-lg:!w-auto"
             >
-              {showInfo ? (
-                <RiArrowDownSFill size={24} />
-              ) : (
-                <RiArrowRightSFill size={24} />
-              )}
-              projects
-            </div>
-
-            {showInfo ? (
               <div
-                data-aos="zoom-in"
-                className={`pl-5 px-3 mt-4 space-y-4 category border-b lg:border-b-0 border-p4 pb-5`}
+                data-aos="fade-down"
+                onClick={() => setShowInfo(!showInfo)}
+                className={`${
+                  showInfo ? "text-white" : ""
+                } pl-4 border-b border-p4 w-full h-10 flex gap-1 items-center px-3 cursor-pointer`}
               >
-                <p className="flex gap-3 items-center text-lg">
-                  <input
-                    type="checkbox"
-                    value="all"
-                    onChange={() => handleCategoryChange("all")}
-                    checked={selectedCategory === "all"}
-                  />
-                  <RiHtml5Fill size={28} /> <label htmlFor="all">All</label>
-                </p>
-                <p className="flex gap-3 items-center text-lg">
-                  <input
-                    type="checkbox"
-                    value="react"
-                    onChange={() => handleCategoryChange("react")}
-                    checked={selectedCategory === "react"}
-                  />
-                  <RiReactjsFill size={28} />{" "}
-                  <label htmlFor="react">React</label>
-                </p>
-                <p className="flex gap-3 items-center text-lg">
-                  <input
-                    type="checkbox"
-                    value="nextjs"
-                    onChange={() => handleCategoryChange("nextjs")}
-                    checked={selectedCategory === "nextjs"}
-                  />
-                  <RiStackFill size={28} />{" "}
-                  <label htmlFor="nextjs">Next.js</label>
-                </p>
+                {showInfo ? (
+                  <RiArrowDownSFill size={24} />
+                ) : (
+                  <RiArrowRightSFill size={24} />
+                )}
+                projects
               </div>
-            ) : (
-              ""
-            )}
-          </Sticky>
-        </div>
+
+              {showInfo ? (
+                <div
+                  data-aos="zoom-in"
+                  className={`pl-5 px-3 mt-4 space-y-4 category border-b lg:border-b-0 border-p4 pb-5`}
+                >
+                  <p className="flex gap-3 items-center text-lg">
+                    <input
+                      type="checkbox"
+                      value="all"
+                      onChange={() => handleCategoryChange("all")}
+                      checked={selectedCategory === "all"}
+                    />
+                    <RiHtml5Fill size={28} /> <label htmlFor="all">All</label>
+                  </p>
+                  <p className="flex gap-3 items-center text-lg">
+                    <input
+                      type="checkbox"
+                      value="react"
+                      onChange={() => handleCategoryChange("react")}
+                      checked={selectedCategory === "react"}
+                    />
+                    <RiReactjsFill size={28} />{" "}
+                    <label htmlFor="react">React</label>
+                  </p>
+                  <p className="flex gap-3 items-center text-lg">
+                    <input
+                      type="checkbox"
+                      value="nextjs"
+                      onChange={() => handleCategoryChange("nextjs")}
+                      checked={selectedCategory === "nextjs"}
+                    />
+                    <RiStackFill size={28} />{" "}
+                    <label htmlFor="nextjs">Next.js</label>
+                  </p>
+                  {/* <p className="flex gap-3 items-center text-lg">
+                    <input
+                      type="checkbox"
+                      value="react-native"
+                      onChange={() => handleCategoryChange("react-native")}
+                      checked={selectedCategory === "react-native"}
+                    />
+                    <RiSmartphoneFill size={28} />{" "}
+                    <label htmlFor="react-native">React Native</label>
+                  </p> */}
+                </div>
+              ) : (
+                ""
+              )}
+            </Sticky>
+          </div>
+        ) : (
+          <div
+            data-aos="fade-down"
+            className=" pl-4 border-b border-p4 w-full h-10 flex gap-1 items-center px-3 cursor-pointer"
+          >
+            projects
+          </div>
+        )}
 
         {windowWidth > 800 ? (
           <div className="lg:min-w-[calc(100vw-0)]  text-s1">
