@@ -21,10 +21,10 @@ const Contact = () => {
       e.preventDefault();
       emailjs
         .sendForm(
-          "service_jtahu7k",
-          "template_bbideon",
+          import.meta.env.VITE_EMAILJS_SERVICE_ID,
+          import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
           form.current,
-          "QzlVigr1RV1N11Eyo"
+          import.meta.env.VITE_EMAILJS_PUBLIC_KEY
         )
         .then((response) => {
           if (response.status === 200) {

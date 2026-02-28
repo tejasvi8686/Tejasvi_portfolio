@@ -4,7 +4,6 @@ import { RxDotFilled } from "react-icons/rx";
 import ReactImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import { Link } from "react-router-dom";
-import React from "../../../public/techs/filled/react.svg"
 import "../../layouts/Styles.css";
 const ModalProject = ({ isOpen, closeModal, content }) => {
   const {
@@ -18,11 +17,11 @@ const ModalProject = ({ isOpen, closeModal, content }) => {
     technologies,
     features,
   } = content;
-  const imageTag = category[0];
+
   if (!isOpen) {
     return null;
   }
-  console.log(images);
+
   const imageReadyToView = images?.map((image) => {
     return {
       original: image,
@@ -54,7 +53,7 @@ const ModalProject = ({ isOpen, closeModal, content }) => {
             </p>
             <div className="relative rounded-2xl border border-p4 bg-p3">
               <img
-                src={React}
+                src={category}
                 alt=""
                 className="absolute w-10 right-4 top-4"
               />

@@ -7,7 +7,7 @@ import "./Styles.css";
 
 const Main = () => {
   const [zIndex, setZIndex] = useState(null);
-  console.log(zIndex);
+
   useEffect(() => {
     Aos.init({ offset: 200 });
   }, []);

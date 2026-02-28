@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { RiCloseFill, RiMenuFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import Sticky from "react-stickynode";
@@ -6,7 +6,11 @@ import ActiveNav from "../../../components/ActiveLink/ActiveNav";
 
 const Navbar = ({ setZIndex }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  setZIndex(isMenuOpen && true);
+
+  useEffect(() => {
+    setZIndex(!!isMenuOpen);
+  }, [isMenuOpen, setZIndex]);
+
   const navItems = (
     <>
       <li>
