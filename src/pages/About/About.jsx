@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet";
 import { HiTerminal } from "react-icons/hi";
-import { RiGamepadFill, RiInformationFill } from "react-icons/ri";
+import { RiInformationFill } from "react-icons/ri";
 import { Outlet } from "react-router-dom";
 import Sticky from "react-stickynode";
 import AboutCodeSnippet from "../../components/AboutCodeSnippet/AboutCodeSnippet";
@@ -28,9 +28,6 @@ const About = () => {
                   </AboutMainMenuActive>
                   <AboutMainMenuActive to={"/about/personal-info"}>
                     <RiInformationFill />
-                  </AboutMainMenuActive>
-                  <AboutMainMenuActive to={"/about/professional-info"}>
-                    <RiGamepadFill />
                   </AboutMainMenuActive>
                 </div>
               </Sticky>

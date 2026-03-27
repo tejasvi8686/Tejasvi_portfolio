@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Navigate } from "react-router-dom";
 import Main from "../layouts/Main";
 import About from "../pages/About/About";
 import PersonalInfo from "../pages/About/PersonalInfo/PersonalInfo";
@@ -24,6 +24,10 @@ const provider = createBrowserRouter([
         path: "/about",
         element: <About />,
         children: [
+          {
+            index: true,
+            element: <Navigate to="/about/professional-info" replace />,
+          },
           {
             path: "/about/professional-info",
             element: <ProfessionalInfo />,

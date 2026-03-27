@@ -12,14 +12,16 @@ const INITIAL_SNAKE = [
 const INITIAL_DIRECTION = "up";
 const INITIAL_APPLE = { x: 5, y: 6 };
 
-const SnakeGame = ({ isGameOver, setEatenApples, eatenApples }) => {
+const SnakeGame = ({ isGameOver, setEatenApples }) => {
   const [snake, setSnake] = useState(INITIAL_SNAKE);
   const [direction, setDirection] = useState(INITIAL_DIRECTION);
   const [apple, setApple] = useState(INITIAL_APPLE);
   const [gameOver, setGameOver] = useState(false);
   const [isGameOverSoundPlayed, setIsGameOverSoundPlayed] = useState(false);
 
-  isGameOver(gameOver);
+  useEffect(() => {
+    isGameOver(gameOver);
+  }, [gameOver, isGameOver]);
 
   useEffect(() => {
     const interval = setInterval(moveSnake, 150);
@@ -29,6 +31,7 @@ const SnakeGame = ({ isGameOver, setEatenApples, eatenApples }) => {
       clearInterval(interval);
       document.removeEventListener("keydown", handleKeyDown);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- moveSnake uses current state; deps ensure interval restarts on state change
   }, [snake, direction, apple]);
 
   useEffect(() => {
@@ -78,7 +81,7 @@ const SnakeGame = ({ isGameOver, setEatenApples, eatenApples }) => {
 
     if (head.x === apple.x && head.y === apple.y) {
       setApple(getRandomApplePosition(newSnake));
-      setEatenApples(eatenApples - 1);
+      setEatenApples((prev) => prev - 1);
       playSound(appleSound);
     } else {
       newSnake.pop();
