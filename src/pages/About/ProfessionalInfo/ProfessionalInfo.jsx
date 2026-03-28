@@ -1,12 +1,13 @@
-/* eslint-disable react/jsx-no-comment-textnodes */
 import { useEffect, useState } from "react";
 import {
   RiArrowDownSFill,
   RiArrowRightSFill,
   RiCloseFill,
+  RiGitRepositoryLine,
 } from "react-icons/ri";
 import Sticky from "react-stickynode";
 import CommentSyntaxHighlighter from "../../../components/AboutCodeSnippet/CommentSyntaxHighlighter";
+import GitHubRepos from "../../../components/GitHubRepos/GitHubRepos";
 import NavContact from "../../../components/AboutInfoNav/NavContact";
 import NavExperience from "./Exprerience/NavExperience";
 import Database from "./Skills/Database";
@@ -100,6 +101,13 @@ const ProfessionalInfo = () => {
                 <NavSkills selectedStatus={setSelectedMenu} />
                 {/* experience nav  */}
                 <NavExperience selectedStatus={setSelectedMenu} />
+                {/* github nav  */}
+                <div
+                  onClick={() => setSelectedMenu("github")}
+                  className="flex items-center gap-1 cursor-pointer transition-all"
+                >
+                  <RiGitRepositoryLine size={24} /> github-repos
+                </div>
               </div>
             ) : (
               ""
@@ -129,6 +137,7 @@ const ProfessionalInfo = () => {
             {selectedMenu === "database" && <Database />}
             {selectedMenu === "other-skills" && <OtherSkills />}
             {selectedMenu === "institute" && <Experience />}
+            {selectedMenu === "github" && <GitHubRepos />}
           </div>
         </Sticky>
       </div>

@@ -6,7 +6,6 @@ import {
   FaGitAlt,
   FaReact,
   FaHtml5,
-  FaCss3Alt,
   FaBootstrap,
 } from "react-icons/fa";
 import {

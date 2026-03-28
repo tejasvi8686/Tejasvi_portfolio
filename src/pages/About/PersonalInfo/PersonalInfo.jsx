@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-no-comment-textnodes */
 import { useEffect, useState } from "react";
 import {
   RiArrowDownSFill,

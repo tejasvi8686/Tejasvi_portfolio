@@ -8,15 +8,7 @@ import {
 
 const ContactNumber = () => {
   const [showInfo, setShowInfo] = useState(true);
-  const recipientEmail = "tejasviraj8686@gmail.com";
-  const subject = "Hello from me";
 
-  const composeEmail = () => {
-    const gmailURL = `https://mail.google.com/mail/?view=cm&to=${encodeURIComponent(
-      recipientEmail
-    )}&su=${encodeURIComponent(subject)}`;
-    window.open(gmailURL, "_blank");
-  };
   return (
     <>
       <div
@@ -37,13 +29,13 @@ const ContactNumber = () => {
         <div data-aos="zoom-in" className={`px-3 my-4 space-y-4 `}>
           <p className="flex items-center  gap-2 ">
             <RiMailFill size={22} />{" "}
-            <span
-              title="Click to sent email"
+            <a
+              title="Click to send email"
+              href="mailto:tejasviraj8686@gmail.com"
               className="hover:text-white hover:underline lg:text-[15px] text-lg transition-all"
-              onClick={composeEmail}
             >
               tejasviraj8686@gmail.com
-            </span>
+            </a>
           </p>
           <span className="text-xs"></span>
           <p className="flex items-center gap-2 ">

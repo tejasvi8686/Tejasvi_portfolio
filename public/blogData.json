@@ -1,0 +1,38 @@
+[
+  {
+    "_id": 1,
+    "slug": "building-responsive-react-applications",
+    "title": "Building Responsive React Applications with Tailwind CSS",
+    "date": "2025-12-15",
+    "tags": ["React", "Tailwind CSS", "Responsive Design"],
+    "summary": "A practical guide to building mobile-first responsive interfaces using React and Tailwind CSS utility classes.",
+    "content": "Responsive design is essential for modern web applications. In this article, I share my approach to building responsive React apps using Tailwind CSS.\n\n## Mobile-First Approach\n\nTailwind CSS uses a mobile-first breakpoint system. This means unprefixed utilities take effect on all screen sizes, while prefixed utilities only take effect at the specified breakpoint and above.\n\n```jsx\n<div className=\"w-full md:w-1/2 lg:w-1/3\">\n  Responsive content\n</div>\n```\n\n## Using Flexbox and Grid\n\nTailwind makes it easy to switch between layouts at different breakpoints:\n\n```jsx\n<div className=\"flex flex-col md:flex-row gap-4\">\n  <div className=\"flex-1\">Sidebar</div>\n  <div className=\"flex-2\">Content</div>\n</div>\n```\n\n## Key Takeaways\n\n1. Start with mobile styles and scale up\n2. Use Tailwind's responsive prefixes consistently\n3. Test on real devices, not just browser resize\n4. Consider touch targets for mobile users"
+  },
+  {
+    "_id": 2,
+    "slug": "react-router-v6-patterns",
+    "title": "React Router v6: Patterns I Use in Every Project",
+    "date": "2025-11-20",
+    "tags": ["React", "React Router", "Navigation"],
+    "summary": "Essential React Router v6 patterns including nested routes, layout routes, and programmatic navigation.",
+    "content": "React Router v6 introduced significant changes from v5. Here are the patterns I use in every project.\n\n## Layout Routes\n\nLayout routes let you wrap child routes with shared UI:\n\n```jsx\nconst router = createBrowserRouter([\n  {\n    path: \"/\",\n    element: <MainLayout />,\n    children: [\n      { index: true, element: <Home /> },\n      { path: \"about\", element: <About /> },\n    ],\n  },\n]);\n```\n\n## Nested Routes with Outlet\n\nThe `Outlet` component renders child routes inside a parent:\n\n```jsx\nconst MainLayout = () => (\n  <div>\n    <Navbar />\n    <Outlet />\n    <Footer />\n  </div>\n);\n```\n\n## Programmatic Navigation\n\nUse `useNavigate` for imperative navigation:\n\n```jsx\nconst navigate = useNavigate();\nnavigate(\"/dashboard\", { replace: true });\n```\n\n## Catch-All Routes\n\nAlways include a catch-all for 404 handling:\n\n```jsx\n{ path: \"*\", element: <NotFound /> }"
+  },
+  {
+    "_id": 3,
+    "slug": "optimizing-bundle-size-react",
+    "title": "How I Reduced My React Bundle Size by 40%",
+    "date": "2025-10-08",
+    "tags": ["Performance", "React", "Webpack"],
+    "summary": "Practical techniques for reducing JavaScript bundle size in React applications, from tree shaking to lazy loading.",
+    "content": "Large bundle sizes hurt user experience, especially on slow connections. Here's how I reduced my React app's bundle by 40%.\n\n## 1. Audit with Bundle Analyzer\n\nFirst, I used `webpack-bundle-analyzer` to identify large dependencies:\n\n```bash\nnpm install --save-dev webpack-bundle-analyzer\n```\n\n## 2. Replace Heavy Libraries\n\n- `moment.js` (67KB) → native `Intl.DateTimeFormat`\n- `lodash` → individual imports or native methods\n- `react-syntax-highlighter` → lighter alternatives like `shiki`\n\n## 3. Lazy Load Routes\n\n```jsx\nconst About = lazy(() => import(\"./pages/About\"));\nconst Projects = lazy(() => import(\"./pages/Projects\"));\n```\n\n## 4. Tree Shake CSS\n\nTailwind CSS's JIT compiler only generates used classes. Combined with PurgeCSS, CSS bundle stays minimal.\n\n## Results\n\n- Before: 487KB gzipped\n- After: 291KB gzipped\n- 40% reduction in initial load"
+  },
+  {
+    "_id": 4,
+    "slug": "modern-css-techniques-2025",
+    "title": "Modern CSS Techniques Every Developer Should Know in 2025",
+    "date": "2025-09-15",
+    "tags": ["CSS", "Frontend", "Web Development"],
+    "summary": "Exploring container queries, cascade layers, :has() selector, and other modern CSS features transforming web development.",
+    "content": "CSS has evolved rapidly. Here are the techniques I use daily that have changed how I write styles.\n\n## Container Queries\n\nContainer queries let components respond to their container's size, not just the viewport:\n\n```css\n@container (min-width: 400px) {\n  .card { flex-direction: row; }\n}\n```\n\n## The :has() Selector\n\nThe parent selector CSS never had:\n\n```css\n.form:has(:invalid) {\n  border-color: red;\n}\n```\n\n## CSS Nesting\n\nNative CSS nesting is now supported in all major browsers:\n\n```css\n.card {\n  padding: 1rem;\n  & .title {\n    font-size: 1.5rem;\n  }\n  &:hover {\n    background: #f0f0f0;\n  }\n}\n```\n\n## Cascade Layers\n\nControl specificity with `@layer`:\n\n```css\n@layer base, components, utilities;\n@layer base { body { margin: 0; } }\n@layer utilities { .p-4 { padding: 1rem; } }\n```\n\nThese features reduce JavaScript dependency for styling logic and improve performance."
+  }
+]

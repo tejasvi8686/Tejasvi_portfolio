@@ -3,7 +3,6 @@ import { RiCheckFill, RiCloseLine, RiCodeSSlashFill } from "react-icons/ri";
 import { RxDotFilled } from "react-icons/rx";
 import ReactImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
-import { Link } from "react-router-dom";
 import "../../layouts/Styles.css";
 const ModalProject = ({ isOpen, closeModal, content }) => {
   const {
@@ -26,6 +25,8 @@ const ModalProject = ({ isOpen, closeModal, content }) => {
     return {
       original: image,
       thumbnail: image,
+      originalAlt: `${name} project screenshot`,
+      thumbnailAlt: `${name} project thumbnail`,
     };
   });
 
@@ -82,20 +83,22 @@ const ModalProject = ({ isOpen, closeModal, content }) => {
                   ))}
                 </ul>
                 <div className="flex gap-2 mt-8">
-                  <Link
-                    to={liveLink}
+                  <a
+                    href={liveLink}
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="bg-[#1C2B3A] hover:bg-[#263B50] text-white px-3 py-2 rounded-lg mb-8 transition-all flex justify-center items-center gap-2"
                   >
                     <MdViewInAr size={24} /> preview
-                  </Link>
-                  <Link
-                    to={codeLink}
+                  </a>
+                  <a
+                    href={codeLink}
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="bg-[#1C2B3A] hover:bg-[#263B50] text-white px-2 py-1 rounded-lg mb-8 transition-all flex justify-center items-center gap-2"
                   >
                     <RiCodeSSlashFill size={24} /> view-code
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>

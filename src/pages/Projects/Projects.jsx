@@ -8,7 +8,6 @@ import {
   RiHtml5Fill,
   RiReactjsFill,
   RiStackFill,
-  RiSmartphoneFill,
 } from "react-icons/ri";
 
 import Sticky from "react-stickynode";
@@ -21,15 +20,21 @@ const Projects = () => {
   const [filteredProjects, setFilteredProjects] = useState([]); // Store filtered projects
   const [selectedCategory, setSelectedCategory] = useState("all"); // Store selected category
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    let timeoutId;
     const handleResize = () => {
-      setWindowWidth(window.innerWidth);
+      clearTimeout(timeoutId);
+      timeoutId = setTimeout(() => {
+        setWindowWidth(window.innerWidth);
+      }, 150);
     };
 
     window.addEventListener("resize", handleResize);
 
     return () => {
+      clearTimeout(timeoutId);
       window.removeEventListener("resize", handleResize);
     };
   }, []);
@@ -40,12 +45,15 @@ const Projects = () => {
 
   const fetchProjects = async () => {
     try {
+      setLoading(true);
       const response = await fetch("./projectsData.json");
       const data = await response.json();
       setAllProjects(data);
       setFilteredProjects(data);
     } catch (error) {
       console.error("Error fetching project data:", error);
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -66,6 +74,10 @@ const Projects = () => {
     <>
       <Helmet>
         <title>Projects | Tejasvi Raj</title>
+        <meta name="description" content="Browse 18+ projects by Tejasvi Raj built with React, Next.js, and modern web technologies. Each project includes live demos and source code." />
+        <meta property="og:title" content="Projects | Tejasvi Raj" />
+        <meta property="og:description" content="18+ web projects built with React, Next.js, and modern technologies." />
+        <meta property="og:type" content="website" />
       </Helmet>
       <div className="lg:h-full w-full text-s1 lg:flex">
         {windowWidth > 800 ? (
@@ -172,11 +184,34 @@ const Projects = () => {
                 className="pt-10 pb-20 lg:px-10 px-5  md:grid md:grid-cols-2 lg:grid-cols-3 gap-5 lg:space-y-0 space-y-6"
                 style={{ alignItems: "baseline" }}
               >
-                {filteredProjects.map((project) => (
-                  <Project key={project._id} project={project} />
-                ))}
+                {loading
+                  ? Array.from({ length: 6 }).map((_, i) => (
+                      <div key={i} className="animate-pulse">
+                        <div className="flex text-sm my-3 items-center">
+                          <div className="h-4 w-16 bg-p3 rounded mr-3"></div>
+                          <div className="h-4 w-24 bg-p3 rounded"></div>
+                        </div>
+                        <div className="h-[20rem] rounded-2xl border border-p4 bg-p3">
+                          <div className="w-full h-32 rounded-t-2xl border-b border-p4 bg-p4 bg-opacity-30"></div>
+                          <div className="mx-8 mt-6 space-y-3">
+                            <div className="h-4 bg-p4 bg-opacity-30 rounded w-full"></div>
+                            <div className="h-4 bg-p4 bg-opacity-30 rounded w-3/4"></div>
+                            <div className="h-10 bg-p4 bg-opacity-30 rounded w-28 mt-4 mb-8"></div>
+                          </div>
+                        </div>
+                      </div>
+                    ))
+                  : filteredProjects.map((project) => (
+                      <Project key={project._id} project={project} />
+                    ))}
               </div>
             </div>
+          </div>
+        ) : loading ? (
+          <div className="p-5 space-y-4 w-full">
+            {Array.from({ length: 4 }).map((_, i) => (
+              <div key={i} className="animate-pulse h-20 rounded-xl border border-p4 bg-p3"></div>
+            ))}
           </div>
         ) : (
           <ProjectCard />

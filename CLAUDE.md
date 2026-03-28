@@ -30,12 +30,21 @@ src/
 │   │   ├── ProfessionalInfo/        # Skills, experience
 │   │   └── PersonalInfo/            # Bio, education
 │   ├── Projects/                    # Project listing with category filters
+│   │   ├── Projects.jsx             # Main project grid
+│   │   ├── Project.jsx              # Project card (desktop)
+│   │   ├── ProjectCard.jsx          # Project card (mobile)
+│   │   ├── ModalProject.jsx         # Project detail modal
+│   │   └── ProjectCaseStudy.jsx     # Case study page (/projects/:slug)
+│   ├── Blog/                        # Blog listing and individual posts
+│   │   ├── Blog.jsx                 # Blog listing page
+│   │   └── BlogPost.jsx             # Individual blog post
 │   ├── Contact/                     # Email form + social links
 │   └── Shared/Navbar, Footer
-├── components/                      # Reusable: SnakeGame, ActiveLink, ArrowButtons, etc.
+├── components/                      # Reusable: SnakeGame, ActiveLink, ArrowButtons, GitHubRepos
 └── assets/                          # Images, audio files
 public/
 ├── projectsData.json                # Project entries (images, techs, links)
+├── blogData.json                    # Blog posts
 └── project/, techs/                 # Static images
 ```
 
@@ -45,6 +54,9 @@ public/
 - `/about/professional-info` — About (default, redirects from `/about`)
 - `/about/personal-info` — Personal info
 - `/projects` — Projects
+- `/projects/:slug` — Project case study
+- `/blog` — Blog listing
+- `/blog/:slug` — Individual blog post
 - `/contact` — Contact
 - `*` — Catch-all → Home
 
@@ -77,29 +89,29 @@ Colors: `p1`–`p4` (primary/dark blues), `s1`–`s3` (secondary), `a1`–`a4` (
 - [x] Preload audio objects in SnakeGame instead of creating new `Audio()` on every play
 - [x] Debounce `window.resize` handler in Projects.jsx
 - [x] Convert email `<span onClick>` to proper `<a href="mailto:">` in ContactNumber.jsx
-- [ ] **USER TODO**: Reconnect Gmail in EmailJS dashboard (OAuth token expired → status 412)
-- [ ] **USER TODO**: Run `npm install` to sync updated dependencies
+- [x] **USER TODO**: Reconnect Gmail in EmailJS dashboard (OAuth token expired → status 412)
+- [x] **USER TODO**: Run `npm install` to sync updated dependencies
 
 ### P1 — SEO & Accessibility
-- [ ] Add meta descriptions and Open Graph tags (og:title, og:description, og:image) on every page
-- [ ] Add `robots.txt` and `sitemap.xml` to `public/`
-- [ ] Add JSON-LD structured data (`Person` schema on home/about)
-- [ ] Fix image alt texts — replace `alt="img"` / `alt="url"` with descriptive text
-- [ ] Fix heading hierarchy — no skipping from `<h1>` to `<h3>`
-- [ ] Add `aria-required` to required form fields, add email format validation
-- [ ] Fix fixed footer overlapping content on mobile (add bottom padding or use flex layout)
-- [ ] Wrap social links in `<nav aria-label="Social media">`
+- [x] Add meta descriptions and Open Graph tags (og:title, og:description, og:image) on every page
+- [x] Add `robots.txt` and `sitemap.xml` to `public/`
+- [x] Add JSON-LD structured data (`Person` schema on home/about)
+- [x] Fix image alt texts — replace `alt="img"` / `alt="url"` with descriptive text
+- [x] Fix heading hierarchy — no skipping from `<h1>` to `<h3>` (changed to `<h2>`)
+- [x] Add `aria-required` to required form fields, fix label `htmlFor` IDs
+- [x] Fix fixed footer overlapping content on mobile (added `pb-12` to main content)
+- [x] Wrap social links in `<nav aria-label="Social media">`, added `aria-label` to all social links
 
 ### P2 — Content & UX Upgrades
-- [ ] Add **project case study pages** (`/projects/[slug]`) with:
+- [x] Add **project case study pages** (`/projects/[slug]`) with:
   - Problem statement, technical decisions, challenges, results
   - Replace modal-only view with dedicated pages
-- [ ] Add **blog/articles section** — even 3-4 technical posts show depth
-- [ ] Add loading skeletons/spinners for project fetching and contact form submission
-- [ ] Add lazy loading (`loading="lazy"`) and responsive `srcSet` on project images
-- [ ] Make snake game responsive (currently hardcoded 500px width)
-- [ ] Auto-dismiss contact form success message after a few seconds
-- [ ] Add GitHub activity integration (contribution graph or pinned repos)
+- [x] Add **blog/articles section** — even 3-4 technical posts show depth
+- [x] Add loading skeletons/spinners for project fetching and contact form submission
+- [x] Add lazy loading (`loading="lazy"`) and responsive `srcSet` on project images
+- [x] Make snake game responsive (currently hardcoded 500px width)
+- [x] Auto-dismiss contact form success message after a few seconds
+- [x] Add GitHub activity integration (contribution graph or pinned repos)
 
 ### P3 — Major Upgrades
 - [ ] **Migrate to Next.js + TypeScript** — SSR/SSG, image optimization, App Router

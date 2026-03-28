@@ -1,6 +1,5 @@
-import emailjs from "emailjs-com";
-import moment from "moment/moment";
-import { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { Helmet } from "react-helmet";
 import { FaHandPeace } from "react-icons/fa";
 import { RiCloseFill } from "react-icons/ri";
@@ -15,10 +14,28 @@ const Contact = () => {
   const [message, setMessage] = useState("");
   const [email, setEmail] = useState("");
   const [success, setSuccess] = useState(false);
+  const [sending, setSending] = useState(false);
+  const successTimerRef = useRef(null);
+
+  const dismissSuccess = useCallback(() => {
+    setSuccess(false);
+  }, []);
+
+  useEffect(() => {
+    if (success) {
+      successTimerRef.current = setTimeout(dismissSuccess, 5000);
+    }
+    return () => {
+      if (successTimerRef.current) {
+        clearTimeout(successTimerRef.current);
+      }
+    };
+  }, [success, dismissSuccess]);
 
   const sendEmail = (e) => {
     if (email && message) {
       e.preventDefault();
+      setSending(true);
       emailjs
         .sendForm(
           import.meta.env.VITE_EMAILJS_SERVICE_ID,
@@ -33,6 +50,9 @@ const Contact = () => {
         })
         .catch((error) => {
           console.error("Error sending email:", error);
+        })
+        .finally(() => {
+          setSending(false);
         });
     }
   };
@@ -45,6 +65,10 @@ const Contact = () => {
     <>
       <Helmet>
         <title>Contact | Tejasvi Raj</title>
+        <meta name="description" content="Get in touch with Tejasvi Raj. Send a message for collaboration, job opportunities, or project inquiries." />
+        <meta property="og:title" content="Contact | Tejasvi Raj" />
+        <meta property="og:description" content="Reach out to Tejasvi Raj for collaboration or job opportunities." />
+        <meta property="og:type" content="website" />
       </Helmet>
       <div className="md:grid md:grid-cols-12 lg:min-h-[calc(100vh-6.5rem)]">
         <div className="col-span-7  md:border-r border-p4 h-full md:flex justify-start text-s1">
@@ -67,8 +91,11 @@ const Contact = () => {
                     Thank You! <FaHandPeace color="#F9BF2F" />
                   </h2>
                   <p>
-                    Your message has been accepted. <br /> You will recieve
+                    Your message has been accepted. <br /> You will receive
                     answer really soon!
+                  </p>
+                  <p className="text-sm text-s1 mt-2">
+                    This message will close in a few seconds...
                   </p>
                   <button
                     onClick={() => setSuccess(false)}
@@ -84,41 +111,53 @@ const Contact = () => {
                   className="contact-form space-y-6"
                 >
                   <div>
-                    <label htmlFor="name">_name</label>
+                    <label htmlFor="contact-name">_name</label>
                     <br />
                     <input
                       type="text"
+                      id="contact-name"
                       placeholder="Tejasvi Raj"
                       name="user_name"
                       onChange={(e) => setName(e.target.value)}
                     />
                   </div>
                   <div>
-                    <label htmlFor="name">_email</label>
+                    <label htmlFor="contact-email">_email</label>
                     <br />
                     <input
                       type="email"
+                      id="contact-email"
                       name="user_email"
                       placeholder="tejasviraj8686@gmail.com"
                       required
+                      aria-required="true"
                       onChange={(e) => setEmail(e.target.value)}
                     />
                   </div>
                   <div>
-                    <label htmlFor="name">_message</label>
+                    <label htmlFor="contact-message">_message</label>
                     <br />
                     <textarea
+                      id="contact-message"
                       name="message"
                       placeholder="Tejasvi, we are offering you a job"
                       required
+                      aria-required="true"
                       onChange={(e) => setMessage(e.target.value)}
                       className="md:w-[23rem] w-[20rem] h-28 bg-p3 rounded-lg px-3 py-4 outline-none border border-p4 mt-2"
                     ></textarea>
                   </div>
                   <button
                     type="submit"
-                    className=" py-3 px-6 rounded-lg text-white bg-[#1C2B3A] hover:bg-[#263B50] transition-all"
+                    disabled={sending}
+                    className=" py-3 px-6 rounded-lg text-white bg-[#1C2B3A] hover:bg-[#263B50] transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
                   >
+                    {sending && (
+                      <svg className="animate-spin h-4 w-4" viewBox="0 0 24 24">
+                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none"></circle>
+                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                      </svg>
+                    )}
                     submit-message
                   </button>
                 </form>
@@ -142,7 +181,7 @@ const message = {
 	name: ${name ? name : '""'},
 	email: ${email ? email : '""'},
 	message: ${message ? message : '""'},
-	date: ${moment(new Date()).format("Do MMM YYYY")}
+	date: ${new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "short", year: "numeric" }).format(new Date())}
 }
 
 button.addEventListener('click', () => {

@@ -11,6 +11,10 @@ const About = () => {
     <>
       <Helmet>
         <title>About | Tejasvi Raj</title>
+        <meta name="description" content="Learn about Tejasvi Raj — skills in React, Next.js, TypeScript, and more. View professional experience, education, and interests." />
+        <meta property="og:title" content="About | Tejasvi Raj" />
+        <meta property="og:description" content="Skills, experience, and background of Tejasvi Raj — Frontend Developer." />
+        <meta property="og:type" content="profile" />
       </Helmet>
       {/* <ResponsiveAbout /> */}
       <div className=" md:grid grid-cols-12  w-full">

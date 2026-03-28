@@ -1,5 +1,4 @@
-/* eslint-disable react-hooks/exhaustive-deps */
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { Helmet } from "react-helmet";
 import { GiSnake } from "react-icons/gi";
 import { RiCloseCircleFill } from "react-icons/ri";
@@ -15,17 +14,20 @@ const Home = () => {
   const [eatenApples, setEatenApples] = useState(10);
   const [wellDone, setWellDone] = useState(false);
 
-  const playAudio = () => {
-    const audio = new Audio(weldoneAudio);
-    audio.play();
-  };
+  const wellDoneSound = useMemo(() => new Audio(weldoneAudio), []);
+
+  const playAudio = useCallback(() => {
+    wellDoneSound.currentTime = 0;
+    wellDoneSound.play();
+  }, [wellDoneSound]);
+
   useEffect(() => {
     if (eatenApples === 0) {
       playAudio();
-      setPlayGame(!playGame);
+      setPlayGame(false);
       setWellDone(true);
     }
-  }, [eatenApples]);
+  }, [eatenApples, playAudio]);
   const snakeFood = (
     <>
       <span className="relative flex h-3 w-3">
@@ -39,7 +41,30 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Home | Tejasvi Raj</title>
+        <title>Tejasvi Raj | Frontend Developer</title>
+        <meta name="description" content="Tejasvi Raj — Frontend developer specializing in React, Next.js, and modern web technologies. Explore my projects, skills, and get in touch." />
+        <meta property="og:title" content="Tejasvi Raj | Frontend Developer" />
+        <meta property="og:description" content="Frontend developer specializing in React, Next.js, and modern web technologies." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://tejasviraj.com" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Tejasvi Raj | Frontend Developer" />
+        <meta name="twitter:description" content="Frontend developer specializing in React, Next.js, and modern web technologies." />
+        <script type="application/ld+json">{`
+          {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Tejasvi Raj",
+            "jobTitle": "Frontend Developer",
+            "url": "https://tejasviraj.com",
+            "sameAs": [
+              "https://github.com/tejasvi8686",
+              "https://www.linkedin.com/in/tejasviraj/",
+              "https://twitter.com/Tejasvi94987859"
+            ],
+            "knowsAbout": ["React", "Next.js", "JavaScript", "Tailwind CSS", "TypeScript"]
+          }
+        `}</script>
       </Helmet>
       <div
         style={{ backgroundImage: `url(${bgGrid})` }}
@@ -56,9 +81,9 @@ const Home = () => {
               <div className="text-[#E5E9F0] ">
                 <p className="text-lg ">Hi all. I am</p>
                 <h1 className="text-[3rem] sm:text-6xl ">Tejasvi Raj</h1>
-                <h3 className="text-s3 text-[1.5rem] sm:text-3xl">
+                <h2 className="text-s3 text-[1.5rem] sm:text-3xl">
                   &gt; Front-end developer
-                </h3>
+                </h2>
               </div>
               <div>
                 <p className="text-s1 hidden lg:block">
@@ -73,13 +98,14 @@ const Home = () => {
                   <span className="text-white"> = </span>
                   <span className="text-a3">
                     “
-                    <Link
+                    <a
                       className="underline"
                       target="_blank"
-                      to={"https://github.com/tejasvi8686"}
+                      rel="noopener noreferrer"
+                      href="https://github.com/tejasvi8686"
                     >
                       https://github.com/tejasvi8686
-                    </Link>
+                    </a>
                     ”
                   </span>
                 </p>
@@ -90,26 +116,27 @@ const Home = () => {
                   <span className="text-white"> = </span>
                   <span className="text-a3">
                     “
-                    <Link
+                    <a
                       className="underline"
                       download
                       target="_blank"
-                      to="https://drive.google.com/file/d/1Un76PHwaKW5NDFVR5XOba52H9KfGHjBc/view?usp=sharing"
+                      rel="noopener noreferrer"
+                      href="https://drive.google.com/file/d/1Un76PHwaKW5NDFVR5XOba52H9KfGHjBc/view?usp=sharing"
                     >
                       https://docs.google.com/resume/
-                    </Link>
+                    </a>
                     ”
                   </span>
                 </p>
               </div>
             </div>
             {/* game section  */}
-            <div className="z-50 relative  h-full lg:flex hidden justify-start items-center">
+            <div className="z-50 relative h-full lg:flex hidden justify-start items-center">
               <div
-                className="z-50 rounded-lg border-2 border-[#010e0e] px-8 py-7 flex justify-center items-center gap-2"
+                className="z-50 rounded-lg border-2 border-[#010e0e] px-4 sm:px-8 py-4 sm:py-7 flex justify-center items-center gap-2"
                 style={{
-                  width: "500px",
-                  height: "475px",
+                  width: "min(500px, 40vw)",
+                  height: "min(475px, 38vw)",
                   background:
                     "linear-gradient(150.26deg, rgba(23, 85, 83, 0.7) 1.7%, rgba(67, 217, 173, 0.091) 81.82%)",
                   boxShadow: "inset 1px 5px 11px rgba(2, 18, 27, 0.71)",

@@ -1,9 +1,8 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import appleSound from "../../assets/audio/eating.mp3";
 import gameOverSound from "../../assets/audio/gameover.mp3";
 
 const GRID_SIZE = 13;
-const CELL_SIZE = 19;
 const INITIAL_SNAKE = [
   { x: 2, y: 10 },
   { x: 3, y: 2.5 },
@@ -119,8 +118,7 @@ const SnakeGame = ({ isGameOver, setEatenApples }) => {
     const isApple = apple.x === col && apple.y === row;
 
     const cellStyle = {
-      width: CELL_SIZE,
-      height: CELL_SIZE,
+      aspectRatio: "1",
       backgroundColor: isSnake ? "#43D9AD" : "",
       borderTopLeftRadius:
         isSnake && row === snake[0].y && col === snake[0].x ? "25%" : "",
@@ -203,8 +201,14 @@ const SnakeGame = ({ isGameOver, setEatenApples }) => {
     );
   };
 
+  const sounds = useMemo(() => ({
+    apple: new Audio(appleSound),
+    gameOver: new Audio(gameOverSound),
+  }), []);
+
   const playSound = (sound) => {
-    const audio = new Audio(sound);
+    const audio = sound === appleSound ? sounds.apple : sounds.gameOver;
+    audio.currentTime = 0;
     audio.play();
   };
 
@@ -213,7 +217,7 @@ const SnakeGame = ({ isGameOver, setEatenApples }) => {
   );
 
   return (
-    <div className="">
+    <div className="w-full">
       {gameOver ? (
         <div
           style={{ background: "rgba(1, 22, 39, 0.84)" }}
@@ -225,7 +229,9 @@ const SnakeGame = ({ isGameOver, setEatenApples }) => {
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: `repeat(${GRID_SIZE}, ${CELL_SIZE}px)`,
+            gridTemplateColumns: `repeat(${GRID_SIZE}, 1fr)`,
+            width: "100%",
+            aspectRatio: "1",
           }}
         >
           {grid}

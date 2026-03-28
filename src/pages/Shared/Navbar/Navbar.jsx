@@ -1,15 +1,11 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { RiCloseFill, RiMenuFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import Sticky from "react-stickynode";
 import ActiveNav from "../../../components/ActiveLink/ActiveNav";
 
-const Navbar = ({ setZIndex }) => {
+const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  useEffect(() => {
-    setZIndex(!!isMenuOpen);
-  }, [isMenuOpen, setZIndex]);
 
   const navItems = (
     <>
@@ -21,6 +17,9 @@ const Navbar = ({ setZIndex }) => {
       </li>
       <li>
         <ActiveNav to={"/projects"}>_projects</ActiveNav>
+      </li>
+      <li>
+        <ActiveNav to={"/blog"}>_blog</ActiveNav>
       </li>
     </>
   );
@@ -63,6 +62,9 @@ const Navbar = ({ setZIndex }) => {
               </Link>
               <Link to={"/projects"} onClick={() => setIsMenuOpen(!isMenuOpen)}>
                 <li>_projects</li>
+              </Link>
+              <Link to={"/blog"} onClick={() => setIsMenuOpen(!isMenuOpen)}>
+                <li>_blog</li>
               </Link>
               <Link to={"/contact"} onClick={() => setIsMenuOpen(!isMenuOpen)}>
                 <li>_contact</li>

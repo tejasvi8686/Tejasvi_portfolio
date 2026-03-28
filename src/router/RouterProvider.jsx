@@ -3,9 +3,12 @@ import Main from "../layouts/Main";
 import About from "../pages/About/About";
 import PersonalInfo from "../pages/About/PersonalInfo/PersonalInfo";
 import ProfessionalInfo from "../pages/About/ProfessionalInfo/ProfessionalInfo";
+import Blog from "../pages/Blog/Blog";
+import BlogPost from "../pages/Blog/BlogPost";
 import Contact from "../pages/Contact/Contact";
 import Home from "../pages/Home/Home";
 import Projects from "../pages/Projects/Projects";
+import ProjectCaseStudy from "../pages/Projects/ProjectCaseStudy";
 
 const provider = createBrowserRouter([
   {
@@ -41,6 +44,18 @@ const provider = createBrowserRouter([
       {
         path: "/projects",
         element: <Projects />,
+      },
+      {
+        path: "/projects/:slug",
+        element: <ProjectCaseStudy />,
+      },
+      {
+        path: "/blog",
+        element: <Blog />,
+      },
+      {
+        path: "/blog/:slug",
+        element: <BlogPost />,
       },
       {
         path: "/contact",
